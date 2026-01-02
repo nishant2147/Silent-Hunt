@@ -1,0 +1,3484 @@
+fileFormatVersion: 2
+guid: c1dcd56b8ca2d1d4c90e36ce18d0b8dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1353445897665198313
+    second: freezePrebooster_0
+  - first:
+      213: -252997749898641143
+    second: freezePrebooster_1
+  - first:
+      213: 155198038480792543
+    second: freezePrebooster_2
+  - first:
+      213: 902674589852093698
+    second: freezePrebooster_3
+  - first:
+      213: 2259513498894303155
+    second: freezePrebooster_4
+  - first:
+      213: -3423386175881756878
+    second: freezePrebooster_5
+  - first:
+      213: -8355684840957903242
+    second: freezePrebooster_6
+  - first:
+      213: 2206910802381749755
+    second: freezePrebooster_7
+  - first:
+      213: -1851461296815795246
+    second: freezePrebooster_8
+  - first:
+      213: -2287499160936720318
+    second: freezePrebooster_9
+  - first:
+      213: -254107961834139287
+    second: freezePrebooster_10
+  - first:
+      213: -1969295915965436076
+    second: freezePrebooster_11
+  - first:
+      213: -7721876125881225510
+    second: freezePrebooster_12
+  - first:
+      213: -5414932316398339065
+    second: freezePrebooster_13
+  - first:
+      213: -8780331468740878417
+    second: freezePrebooster_14
+  - first:
+      213: -5495313115262258786
+    second: freezePrebooster_15
+  - first:
+      213: 6978850682938856665
+    second: freezePrebooster_16
+  - first:
+      213: 7166677510325562524
+    second: freezePrebooster_17
+  - first:
+      213: 3709713915064121893
+    second: freezePrebooster_18
+  - first:
+      213: -7059977866701724979
+    second: freezePrebooster_19
+  - first:
+      213: -3586349794505112323
+    second: freezePrebooster_20
+  - first:
+      213: -2881231988650171711
+    second: freezePrebooster_21
+  - first:
+      213: -8315586463576286640
+    second: freezePrebooster_22
+  - first:
+      213: -2449221592484900638
+    second: freezePrebooster_23
+  - first:
+      213: -6101572193018501708
+    second: freezePrebooster_24
+  - first:
+      213: 6583366332418630353
+    second: freezePrebooster_25
+  - first:
+      213: -7727701687442431163
+    second: freezePrebooster_26
+  - first:
+      213: 5934659918317020438
+    second: freezePrebooster_27
+  - first:
+      213: 65054167914535742
+    second: freezePrebooster_28
+  - first:
+      213: -6623786059511023447
+    second: freezePrebooster_29
+  - first:
+      213: -3350518871143888365
+    second: freezePrebooster_30
+  - first:
+      213: 3389752049341033995
+    second: freezePrebooster_31
+  - first:
+      213: 37804273144041820
+    second: freezePrebooster_32
+  - first:
+      213: 6724888999215257225
+    second: freezePrebooster_33
+  - first:
+      213: 4033468957716288383
+    second: freezePrebooster_34
+  - first:
+      213: 2239379403359452211
+    second: freezePrebooster_35
+  - first:
+      213: -1174155212478694256
+    second: freezePrebooster_36
+  - first:
+      213: -7280139195090926473
+    second: freezePrebooster_37
+  - first:
+      213: -1098761683517630164
+    second: freezePrebooster_38
+  - first:
+      213: 4427491100125301294
+    second: freezePrebooster_39
+  - first:
+      213: -9137840511562937787
+    second: freezePrebooster_40
+  - first:
+      213: -2814653924742864682
+    second: freezePrebooster_41
+  - first:
+      213: -7264647598552462742
+    second: freezePrebooster_42
+  - first:
+      213: 2782212213098460132
+    second: freezePrebooster_43
+  - first:
+      213: -5087647579225867460
+    second: freezePrebooster_44
+  - first:
+      213: -6037918584790265246
+    second: freezePrebooster_45
+  - first:
+      213: 1876013779456513873
+    second: freezePrebooster_46
+  - first:
+      213: 8631619422213932788
+    second: freezePrebooster_47
+  - first:
+      213: 3007470073394773341
+    second: freezePrebooster_48
+  - first:
+      213: 515751660546249239
+    second: freezePrebooster_49
+  - first:
+      213: 5481390500310275532
+    second: freezePrebooster_50
+  - first:
+      213: 6491802519564525574
+    second: freezePrebooster_51
+  - first:
+      213: 5566840640372006238
+    second: freezePrebooster_52
+  - first:
+      213: 8740883553699393710
+    second: freezePrebooster_53
+  - first:
+      213: 3393824637361216171
+    second: freezePrebooster_54
+  - first:
+      213: -7823153780433857976
+    second: freezePrebooster_55
+  - first:
+      213: 5579043637516727572
+    second: freezePrebooster_56
+  - first:
+      213: -5620946332192548602
+    second: freezePrebooster_57
+  - first:
+      213: 1448168312255075914
+    second: freezePrebooster_58
+  - first:
+      213: 2691825614530989578
+    second: freezePrebooster_59
+  - first:
+      213: -8654496670501383620
+    second: freezePrebooster_60
+  - first:
+      213: 2245016929172080065
+    second: freezePrebooster_61
+  - first:
+      213: 1161323517869387289
+    second: freezePrebooster_62
+  - first:
+      213: -394848691540158569
+    second: freezePrebooster_63
+  - first:
+      213: -8821961675036294813
+    second: freezePrebooster_64
+  - first:
+      213: 4857204784096181657
+    second: freezePrebooster_65
+  - first:
+      213: 8641639006245491755
+    second: freezePrebooster_66
+  - first:
+      213: 5849866162016020760
+    second: freezePrebooster_67
+  - first:
+      213: -3187281557928443347
+    second: freezePrebooster_68
+  - first:
+      213: -1632109073852003410
+    second: freezePrebooster_69
+  - first:
+      213: -5137042399221910008
+    second: freezePrebooster_70
+  - first:
+      213: 8645734747328242857
+    second: freezePrebooster_71
+  - first:
+      213: 3483223536782862918
+    second: freezePrebooster_72
+  - first:
+      213: -9217625077736382199
+    second: freezePrebooster_73
+  - first:
+      213: -4618392487607818202
+    second: freezePrebooster_74
+  - first:
+      213: -6224387001564993970
+    second: freezePrebooster_75
+  - first:
+      213: -2477164612906549865
+    second: freezePrebooster_76
+  - first:
+      213: -5502400869138979500
+    second: freezePrebooster_77
+  - first:
+      213: -5045202409578175184
+    second: freezePrebooster_78
+  - first:
+      213: -3264787853737698204
+    second: freezePrebooster_79
+  - first:
+      213: -5780691244959793472
+    second: freezePrebooster_80
+  - first:
+      213: -5401661548573551738
+    second: freezePrebooster_81
+  - first:
+      213: 88865136126392453
+    second: freezePrebooster_82
+  - first:
+      213: -3617325088188395860
+    second: freezePrebooster_83
+  - first:
+      213: -5542598270167214989
+    second: freezePrebooster_84
+  - first:
+      213: -5064951720959061888
+    second: freezePrebooster_85
+  - first:
+      213: -7564131596229196312
+    second: freezePrebooster_86
+  - first:
+      213: -4053686504522639631
+    second: freezePrebooster_87
+  - first:
+      213: 2525830281696614289
+    second: freezePrebooster_88
+  - first:
+      213: -8948346799239298839
+    second: freezePrebooster_89
+  - first:
+      213: 2031351119849529359
+    second: freezePrebooster_90
+  - first:
+      213: -7483285974605542586
+    second: freezePrebooster_91
+  - first:
+      213: 6344805014168826883
+    second: freezePrebooster_92
+  - first:
+      213: 4195986502701319848
+    second: freezePrebooster_93
+  - first:
+      213: -3681070831602526318
+    second: freezePrebooster_94
+  - first:
+      213: 7756049230160814627
+    second: freezePrebooster_95
+  - first:
+      213: 1001567693969706662
+    second: freezePrebooster_96
+  - first:
+      213: -8333942684828824308
+    second: freezePrebooster_97
+  - first:
+      213: 6626628729298764055
+    second: freezePrebooster_98
+  - first:
+      213: 8678067754978982467
+    second: freezePrebooster_99
+  - first:
+      213: 1750330946615869569
+    second: freezePrebooster_100
+  - first:
+      213: -8552493039662526048
+    second: freezePrebooster_101
+  - first:
+      213: 8438416942366650832
+    second: freezePrebooster_102
+  - first:
+      213: 8214515855594595687
+    second: freezePrebooster_103
+  - first:
+      213: -4777357243870450741
+    second: freezePrebooster_104
+  - first:
+      213: -4032169770241803248
+    second: freezePrebooster_105
+  - first:
+      213: 369084765201313876
+    second: freezePrebooster_106
+  - first:
+      213: 6787405213829849273
+    second: freezePrebooster_107
+  - first:
+      213: -5911799132476512759
+    second: freezePrebooster_108
+  - first:
+      213: -6560473524308763053
+    second: freezePrebooster_109
+  - first:
+      213: 1265896906657314272
+    second: freezePrebooster_110
+  - first:
+      213: 6256524626184699530
+    second: freezePrebooster_111
+  - first:
+      213: 5853762746935027239
+    second: freezePrebooster_112
+  - first:
+      213: 5897203855730738852
+    second: freezePrebooster_113
+  - first:
+      213: -3011171006045680271
+    second: freezePrebooster_114
+  - first:
+      213: 5121835969961224469
+    second: freezePrebooster_115
+  - first:
+      213: 2423492586302683550
+    second: freezePrebooster_116
+  - first:
+      213: -4929432563342376009
+    second: freezePrebooster_117
+  - first:
+      213: 506651780479085407
+    second: freezePrebooster_118
+  - first:
+      213: 572185916764241950
+    second: freezePrebooster_119
+  - first:
+      213: 8362123890657570330
+    second: freezePrebooster_120
+  - first:
+      213: 5998907466516050454
+    second: freezePrebooster_121
+  - first:
+      213: -7924978709130248820
+    second: freezePrebooster_122
+  - first:
+      213: 8545529272413901127
+    second: freezePrebooster_123
+  - first:
+      213: -20822580865671865
+    second: freezePrebooster_124
+  - first:
+      213: 1839035978062835184
+    second: freezePrebooster_125
+  - first:
+      213: -2575679282549766319
+    second: freezePrebooster_126
+  - first:
+      213: -6040877902906563563
+    second: freezePrebooster_127
+  - first:
+      213: 4042414815205878093
+    second: freezePrebooster_128
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: freezePrebooster_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 963
+        width: 78
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e83b018fd768c210800000000000000
+      internalID: 1353445897665198313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 951
+        width: 109
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901815c03eb2d7cf0800000000000000
+      internalID: -252997749898641143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_2
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 940
+        width: 138
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb2c713bcf572200800000000000000
+      internalID: 155198038480792543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_3
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 785
+        width: 137
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20dc7e3c1c1f68c00800000000000000
+      internalID: 902674589852093698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_4
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 783
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf7bca4e876b5f10800000000000000
+      internalID: 2259513498894303155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_5
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 782
+        width: 136
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fb5913960bd70d0800000000000000
+      internalID: -3423386175881756878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 628
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e769f48e4aa0c80800000000000000
+      internalID: -8355684840957903242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_7
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 628
+        width: 130
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfdbfea9ea580ae10800000000000000
+      internalID: 2206910802381749755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_8
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 629
+        width: 118
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d319ef82c94e46e0800000000000000
+      internalID: -1851461296815795246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_9
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 478
+        width: 117
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248dc5002ab2140e0800000000000000
+      internalID: -2287499160936720318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_10
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 481
+        width: 112
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9611740b72a397cf0800000000000000
+      internalID: -254107961834139287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_11
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 566
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45fa0475cc7aba4e0800000000000000
+      internalID: -1969295915965436076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_12
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 587
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adea745639266d490800000000000000
+      internalID: -7721876125881225510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_13
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 555
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c3b4e6fbb4ad4b0800000000000000
+      internalID: -5414932316398339065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_14
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 534
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf1483ac0ff52680800000000000000
+      internalID: -8780331468740878417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_15
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 559
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e917f3b46d9bcb3b0800000000000000
+      internalID: -5495313115262258786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_16
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 554
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4101978bbd9d060800000000000000
+      internalID: 6978850682938856665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_17
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 548
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c6cb69937257360800000000000000
+      internalID: 7166677510325562524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_18
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 494
+        width: 34
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a78bd962d8b7330800000000000000
+      internalID: 3709713915064121893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_19
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 539
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2af1d198be50e90800000000000000
+      internalID: -7059977866701724979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_20
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 528
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df44a3afcd9ba3ec0800000000000000
+      internalID: -3586349794505112323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_21
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 515
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c2a30195cec308d0800000000000000
+      internalID: -2881231988650171711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_22
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 523
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a1d735b2a199c80800000000000000
+      internalID: -8315586463576286640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_23
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 518
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e098bb20fd920ed0800000000000000
+      internalID: -2449221592484900638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_24
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 489
+        width: 54
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b52bbffa6cd25ba0800000000000000
+      internalID: -6101572193018501708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_25
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 513
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d224169cc0dc5b50800000000000000
+      internalID: 6583366332418630353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_26
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 413
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543aec52240b1c490800000000000000
+      internalID: -7727701687442431163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_27
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 400
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615e806a0c52c5250800000000000000
+      internalID: 5934659918317020438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_28
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 413
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b54b9cb6e17e000800000000000000
+      internalID: 65054167914535742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_29
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 425
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a839a65ca59314a0800000000000000
+      internalID: -6623786059511023447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_30
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 401
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ac938a6d09081d0800000000000000
+      internalID: -3350518871143888365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_31
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 414
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0eef997781da0f20800000000000000
+      internalID: 3389752049341033995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_32
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 426
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c511ebf39ce468000800000000000000
+      internalID: 37804273144041820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_33
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 402
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98658203aea935d50800000000000000
+      internalID: 6724888999215257225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_34
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 405
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f739e3595a2c9f730800000000000000
+      internalID: 4033468957716288383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_35
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 394
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33cf09ed3bfd31f10800000000000000
+      internalID: 2239379403359452211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_36
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 415
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09cb8012e0094bfe0800000000000000
+      internalID: -1174155212478694256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_37
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 407
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774053159ffb7fa90800000000000000
+      internalID: -7280139195090926473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_38
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 406
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c291f11021a60c0f0800000000000000
+      internalID: -1098761683517630164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_39
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 416
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a0c2d92bb917d30800000000000000
+      internalID: 4427491100125301294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_40
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 407
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a0e16187edf2180800000000000000
+      internalID: -9137840511562937787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_41
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 407
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d0ea0a0b2750f8d0800000000000000
+      internalID: -2814653924742864682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_42
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 381
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ac2e5bf79ce2b90800000000000000
+      internalID: -7264647598552462742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_43
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 400
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3bc7b54476c9620800000000000000
+      internalID: 2782212213098460132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_44
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 395
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3bbdd17b7b0569b0800000000000000
+      internalID: -5087647579225867460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_45
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 382
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262d8d29901053ca0800000000000000
+      internalID: -6037918584790265246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_46
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 401
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1575e36c790f80a10800000000000000
+      internalID: 1876013779456513873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_47
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 397
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f68c69d12ca9c770800000000000000
+      internalID: 8631619422213932788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_48
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 396
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d3055f81eacb920800000000000000
+      internalID: 3007470073394773341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_49
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 382
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7125d271761582700800000000000000
+      internalID: 515751660546249239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_50
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 401
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5d13e4e9fc11c40800000000000000
+      internalID: 5481390500310275532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_51
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 397
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60021aa1ff3871a50800000000000000
+      internalID: 6491802519564525574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_52
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 396
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5dd49a6114614d40800000000000000
+      internalID: 5566840640372006238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_53
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 385
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea07e49e74bdd4970800000000000000
+      internalID: 8740883553699393710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_54
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 379
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa52e3c689491f20800000000000000
+      internalID: 3393824637361216171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_55
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 356
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8425cf5e5139e6390800000000000000
+      internalID: -7823153780433857976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_56
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 356
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415769811aebc6d40800000000000000
+      internalID: 5579043637516727572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_57
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 357
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 609d02887136ef1b0800000000000000
+      internalID: -5620946332192548602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_58
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 374
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46d0f2486de81410800000000000000
+      internalID: 1448168312255075914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_59
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 361
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0eca6f62294b5520800000000000000
+      internalID: 2691825614530989578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_60
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 369
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32d6f4b12d05e780800000000000000
+      internalID: -8654496670501383620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_61
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 364
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c54a02a007e72f10800000000000000
+      internalID: 2245016929172080065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_62
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 374
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e69e72699dd1010800000000000000
+      internalID: 1161323517869387289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_63
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 361
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79798b00537358af0800000000000000
+      internalID: -394848691540158569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_64
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 369
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3610a59e898129580800000000000000
+      internalID: -8821961675036294813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_65
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 364
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d716d3402486340800000000000000
+      internalID: 4857204784096181657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_66
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 335
+        width: 54
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b241c6c04e44de770800000000000000
+      internalID: 8641639006245491755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_67
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 359
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819ea8ac746ee2150800000000000000
+      internalID: 5849866162016020760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_68
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 357
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22858c5f4084c3d0800000000000000
+      internalID: -3187281557928443347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_69
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 338
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab0c52d1759959e0800000000000000
+      internalID: -1632109073852003410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_70
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 359
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806f146b72f85b8b0800000000000000
+      internalID: -5137042399221910008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_71
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 357
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a460c412f1dbf770800000000000000
+      internalID: 8645734747328242857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_72
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 339
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ae83f0a55e65030800000000000000
+      internalID: 3483223536782862918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_73
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 360
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9016ac034da641080800000000000000
+      internalID: -9217625077736382199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_74
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 357
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628adc6708c28efb0800000000000000
+      internalID: -4618392487607818202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_75
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 340
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46e82310098e99a0800000000000000
+      internalID: -6224387001564993970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_76
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 335
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d798db8e75f9dd0800000000000000
+      internalID: -2477164612906549865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_77
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 341
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 455ab2fff8b83a3b0800000000000000
+      internalID: -5502400869138979500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_78
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 335
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035e52d9327dbf9b0800000000000000
+      internalID: -5045202409578175184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_79
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 341
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c54fe9eb421b2d0800000000000000
+      internalID: -3264787853737698204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_80
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 260
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cef5fba0fbd6cfa0800000000000000
+      internalID: -5780691244959793472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_81
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 272
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6831368d0717905b0800000000000000
+      internalID: -5401661548573551738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_82
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 242
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588fab7de56bb3100800000000000000
+      internalID: 88865136126392453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_83
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 260
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae0c696ffdaccdc0800000000000000
+      internalID: -3617325088188395860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_84
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 253
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3741dfd3d3cb413b0800000000000000
+      internalID: -5542598270167214989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_85
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 261
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0805bbbbe3da5b9b0800000000000000
+      internalID: -5064951720959061888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_86
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 254
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e54374c36ec60790800000000000000
+      internalID: -7564131596229196312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_87
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 262
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6122bf9996eb7c0800000000000000
+      internalID: -4053686504522639631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_88
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 253
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197937f324d8d0320800000000000000
+      internalID: 2525830281696614289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_89
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 253
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e086581ff511d380800000000000000
+      internalID: -8948346799239298839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_90
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 229
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0029b8b41fc03c10800000000000000
+      internalID: 2031351119849529359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_91
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 247
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b49f2ed07062890800000000000000
+      internalID: -7483285974605542586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_92
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 243
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30476ae4b864d0850800000000000000
+      internalID: 6344805014168826883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_93
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 229
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a688df2e732b3a30800000000000000
+      internalID: 4195986502701319848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_94
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 229
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2979741f4953aecc0800000000000000
+      internalID: -3681070831602526318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_95
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 185
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3226d287ea503ab60800000000000000
+      internalID: 7756049230160814627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_96
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 206
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae4299d28846ed00800000000000000
+      internalID: 1001567693969706662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_97
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 203
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d00548843e75c80800000000000000
+      internalID: -8333942684828824308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_98
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 203
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711404c48b386fb50800000000000000
+      internalID: 6626628729298764055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_99
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 185
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a3b4015a0be6870800000000000000
+      internalID: 8678067754978982467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_100
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 206
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1808968e8bc6a4810800000000000000
+      internalID: 1750330946615869569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_101
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 203
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a11aeab4e07f4980800000000000000
+      internalID: -8552493039662526048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_102
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 203
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1f66c10874b1570800000000000000
+      internalID: 8438416942366650832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_103
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 185
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765a786f5a2dff170800000000000000
+      internalID: 8214515855594595687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_104
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 207
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb66f1f5ea63bdb0800000000000000
+      internalID: -4777357243870450741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_105
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 203
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c3ba215fada08c0800000000000000
+      internalID: -4032169770241803248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_106
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 203
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45035d173a04f1500800000000000000
+      internalID: 369084765201313876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_107
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 181
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b066fca415b13e50800000000000000
+      internalID: 6787405213829849273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_108
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 187
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9066645d20215fda0800000000000000
+      internalID: -5911799132476512759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_109
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 181
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e9839a61484f4a0800000000000000
+      internalID: -6560473524308763053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_110
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 188
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e53393978e519110800000000000000
+      internalID: 1265896906657314272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_111
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 181
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ef830cff3a3d650800000000000000
+      internalID: 6256524626184699530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_112
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 188
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7262a7a243ebc3150800000000000000
+      internalID: 5853762746935027239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_113
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 107
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a605ec79a317d150800000000000000
+      internalID: 5897203855730738852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_114
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 100
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d01b28ceb2636d0800000000000000
+      internalID: -3011171006045680271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_115
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 107
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5196b539daa641740800000000000000
+      internalID: 5121835969961224469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_116
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 101
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e993d52caa9f1a120800000000000000
+      internalID: 2423492586302683550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_117
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 75
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b30cbd6333279bb0800000000000000
+      internalID: -4929432563342376009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_118
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 49
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b66482c1df70700800000000000000
+      internalID: 506651780479085407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_119
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 76
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10c63a4f00d0f700800000000000000
+      internalID: 572185916764241950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_120
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 50
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ea376cf5b3c0470800000000000000
+      internalID: 8362123890657570330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_121
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 31
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612b026ae86604350800000000000000
+      internalID: 5998907466516050454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_122
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 53
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8df1c53ad1d40290800000000000000
+      internalID: -7924978709130248820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_123
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 32
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741deebd891d79670800000000000000
+      internalID: 8545529272413901127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_124
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 53
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74dd13819f506bff0800000000000000
+      internalID: -20822580865671865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_125
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 28
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd29997a71958910800000000000000
+      internalID: 1839035978062835184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_126
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 34
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157c94cc659514cd0800000000000000
+      internalID: -2575679282549766319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_127
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 28
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5146fb1ad8d7a2ca0800000000000000
+      internalID: -6040877902906563563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freezePrebooster_128
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 34
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d496f175bda891830800000000000000
+      internalID: 4042414815205878093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      freezePrebooster_0: 1353445897665198313
+      freezePrebooster_1: -252997749898641143
+      freezePrebooster_10: -254107961834139287
+      freezePrebooster_100: 1750330946615869569
+      freezePrebooster_101: -8552493039662526048
+      freezePrebooster_102: 8438416942366650832
+      freezePrebooster_103: 8214515855594595687
+      freezePrebooster_104: -4777357243870450741
+      freezePrebooster_105: -4032169770241803248
+      freezePrebooster_106: 369084765201313876
+      freezePrebooster_107: 6787405213829849273
+      freezePrebooster_108: -5911799132476512759
+      freezePrebooster_109: -6560473524308763053
+      freezePrebooster_11: -1969295915965436076
+      freezePrebooster_110: 1265896906657314272
+      freezePrebooster_111: 6256524626184699530
+      freezePrebooster_112: 5853762746935027239
+      freezePrebooster_113: 5897203855730738852
+      freezePrebooster_114: -3011171006045680271
+      freezePrebooster_115: 5121835969961224469
+      freezePrebooster_116: 2423492586302683550
+      freezePrebooster_117: -4929432563342376009
+      freezePrebooster_118: 506651780479085407
+      freezePrebooster_119: 572185916764241950
+      freezePrebooster_12: -7721876125881225510
+      freezePrebooster_120: 8362123890657570330
+      freezePrebooster_121: 5998907466516050454
+      freezePrebooster_122: -7924978709130248820
+      freezePrebooster_123: 8545529272413901127
+      freezePrebooster_124: -20822580865671865
+      freezePrebooster_125: 1839035978062835184
+      freezePrebooster_126: -2575679282549766319
+      freezePrebooster_127: -6040877902906563563
+      freezePrebooster_128: 4042414815205878093
+      freezePrebooster_13: -5414932316398339065
+      freezePrebooster_14: -8780331468740878417
+      freezePrebooster_15: -5495313115262258786
+      freezePrebooster_16: 6978850682938856665
+      freezePrebooster_17: 7166677510325562524
+      freezePrebooster_18: 3709713915064121893
+      freezePrebooster_19: -7059977866701724979
+      freezePrebooster_2: 155198038480792543
+      freezePrebooster_20: -3586349794505112323
+      freezePrebooster_21: -2881231988650171711
+      freezePrebooster_22: -8315586463576286640
+      freezePrebooster_23: -2449221592484900638
+      freezePrebooster_24: -6101572193018501708
+      freezePrebooster_25: 6583366332418630353
+      freezePrebooster_26: -7727701687442431163
+      freezePrebooster_27: 5934659918317020438
+      freezePrebooster_28: 65054167914535742
+      freezePrebooster_29: -6623786059511023447
+      freezePrebooster_3: 902674589852093698
+      freezePrebooster_30: -3350518871143888365
+      freezePrebooster_31: 3389752049341033995
+      freezePrebooster_32: 37804273144041820
+      freezePrebooster_33: 6724888999215257225
+      freezePrebooster_34: 4033468957716288383
+      freezePrebooster_35: 2239379403359452211
+      freezePrebooster_36: -1174155212478694256
+      freezePrebooster_37: -7280139195090926473
+      freezePrebooster_38: -1098761683517630164
+      freezePrebooster_39: 4427491100125301294
+      freezePrebooster_4: 2259513498894303155
+      freezePrebooster_40: -9137840511562937787
+      freezePrebooster_41: -2814653924742864682
+      freezePrebooster_42: -7264647598552462742
+      freezePrebooster_43: 2782212213098460132
+      freezePrebooster_44: -5087647579225867460
+      freezePrebooster_45: -6037918584790265246
+      freezePrebooster_46: 1876013779456513873
+      freezePrebooster_47: 8631619422213932788
+      freezePrebooster_48: 3007470073394773341
+      freezePrebooster_49: 515751660546249239
+      freezePrebooster_5: -3423386175881756878
+      freezePrebooster_50: 5481390500310275532
+      freezePrebooster_51: 6491802519564525574
+      freezePrebooster_52: 5566840640372006238
+      freezePrebooster_53: 8740883553699393710
+      freezePrebooster_54: 3393824637361216171
+      freezePrebooster_55: -7823153780433857976
+      freezePrebooster_56: 5579043637516727572
+      freezePrebooster_57: -5620946332192548602
+      freezePrebooster_58: 1448168312255075914
+      freezePrebooster_59: 2691825614530989578
+      freezePrebooster_6: -8355684840957903242
+      freezePrebooster_60: -8654496670501383620
+      freezePrebooster_61: 2245016929172080065
+      freezePrebooster_62: 1161323517869387289
+      freezePrebooster_63: -394848691540158569
+      freezePrebooster_64: -8821961675036294813
+      freezePrebooster_65: 4857204784096181657
+      freezePrebooster_66: 8641639006245491755
+      freezePrebooster_67: 5849866162016020760
+      freezePrebooster_68: -3187281557928443347
+      freezePrebooster_69: -1632109073852003410
+      freezePrebooster_7: 2206910802381749755
+      freezePrebooster_70: -5137042399221910008
+      freezePrebooster_71: 8645734747328242857
+      freezePrebooster_72: 3483223536782862918
+      freezePrebooster_73: -9217625077736382199
+      freezePrebooster_74: -4618392487607818202
+      freezePrebooster_75: -6224387001564993970
+      freezePrebooster_76: -2477164612906549865
+      freezePrebooster_77: -5502400869138979500
+      freezePrebooster_78: -5045202409578175184
+      freezePrebooster_79: -3264787853737698204
+      freezePrebooster_8: -1851461296815795246
+      freezePrebooster_80: -5780691244959793472
+      freezePrebooster_81: -5401661548573551738
+      freezePrebooster_82: 88865136126392453
+      freezePrebooster_83: -3617325088188395860
+      freezePrebooster_84: -5542598270167214989
+      freezePrebooster_85: -5064951720959061888
+      freezePrebooster_86: -7564131596229196312
+      freezePrebooster_87: -4053686504522639631
+      freezePrebooster_88: 2525830281696614289
+      freezePrebooster_89: -8948346799239298839
+      freezePrebooster_9: -2287499160936720318
+      freezePrebooster_90: 2031351119849529359
+      freezePrebooster_91: -7483285974605542586
+      freezePrebooster_92: 6344805014168826883
+      freezePrebooster_93: 4195986502701319848
+      freezePrebooster_94: -3681070831602526318
+      freezePrebooster_95: 7756049230160814627
+      freezePrebooster_96: 1001567693969706662
+      freezePrebooster_97: -8333942684828824308
+      freezePrebooster_98: 6626628729298764055
+      freezePrebooster_99: 8678067754978982467
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

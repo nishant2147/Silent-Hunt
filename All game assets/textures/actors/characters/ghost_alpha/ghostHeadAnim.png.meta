@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 50676b22389caf74d82b3b0cfe16c641
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4994301018937908180
+    second: ghostHeadAnim_0
+  - first:
+      213: 7992459197183182228
+    second: ghostHeadAnim_1
+  - first:
+      213: 3526254246871633681
+    second: ghostHeadAnim_2
+  - first:
+      213: -2875426964888068074
+    second: ghostHeadAnim_3
+  - first:
+      213: 7344006488228108390
+    second: ghostHeadAnim_4
+  - first:
+      213: 3323439046987901561
+    second: ghostHeadAnim_5
+  - first:
+      213: 2719420655332260912
+    second: ghostHeadAnim_6
+  - first:
+      213: 1547326457360692484
+    second: ghostHeadAnim_7
+  - first:
+      213: 6352354075465485340
+    second: ghostHeadAnim_8
+  - first:
+      213: -5925895007432220474
+    second: ghostHeadAnim_9
+  - first:
+      213: 6224768004737954232
+    second: ghostHeadAnim_10
+  - first:
+      213: 5964857282897180932
+    second: ghostHeadAnim_11
+  - first:
+      213: 8434880634041079313
+    second: ghostHeadAnim_12
+  - first:
+      213: 3373275600969109684
+    second: ghostHeadAnim_13
+  - first:
+      213: -1048945468574662517
+    second: ghostHeadAnim_14
+  - first:
+      213: 2981651163756708386
+    second: ghostHeadAnim_15
+  - first:
+      213: -6480131271431338133
+    second: ghostHeadAnim_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ghostHeadAnim_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1079
+        width: 216
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db5a27d0525f4540800000000000000
+      internalID: 4994301018937908180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghostHeadAnim_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 990
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49548e14b4beaee60800000000000000
+      internalID: 7992459197183182228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghostHeadAnim_2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 946
+        width: 211
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f0f7cfd85cfe030800000000000000
+      internalID: 3526254246871633681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghostHeadAnim_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 886
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610644cf86e6818d0800000000000000
+      internalID: -2875426964888068074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghostHeadAnim_4
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 819
+        width: 191
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6681007adf62be560800000000000000
+      internalID: 7344006488228108390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghostHeadAnim_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 863
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a6064743a3f1e20800000000000000
+      internalID: 3323439046987901561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghostHeadAnim_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 844
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c70fb8da25db520800000000000000
+      internalID: 2719420655332260912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghostHeadAnim_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 782
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4053c820735397510800000000000000
+      internalID: 1547326457360692484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghostHeadAnim_8
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 692
+        width: 190
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c00ab1068182850800000000000000
+      internalID: 6352354075465485340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghostHeadAnim_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 757
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c0edb133edf2cda0800000000000000
+      internalID: -5925895007432220474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghostHeadAnim_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 724
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b17f932581d26650800000000000000
+      internalID: 6224768004737954232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghostHeadAnim_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 604
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409fcfa781e67c250800000000000000
+      internalID: 5964857282897180932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghostHeadAnim_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 563
+        width: 201
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11617da2f37be0570800000000000000
+      internalID: 8434880634041079313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghostHeadAnim_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 412
+        width: 209
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b09145694840de20800000000000000
+      internalID: 3373275600969109684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghostHeadAnim_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 265
+        width: 209
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b800ad467a56171f0800000000000000
+      internalID: -1048945468574662517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghostHeadAnim_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 132
+        width: 209
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22249db9fe3f06920800000000000000
+      internalID: 2981651163756708386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghostHeadAnim_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 207
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b674f6c11f2f116a0800000000000000
+      internalID: -6480131271431338133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ghostHeadAnim_0: 4994301018937908180
+      ghostHeadAnim_1: 7992459197183182228
+      ghostHeadAnim_10: 6224768004737954232
+      ghostHeadAnim_11: 5964857282897180932
+      ghostHeadAnim_12: 8434880634041079313
+      ghostHeadAnim_13: 3373275600969109684
+      ghostHeadAnim_14: -1048945468574662517
+      ghostHeadAnim_15: 2981651163756708386
+      ghostHeadAnim_16: -6480131271431338133
+      ghostHeadAnim_2: 3526254246871633681
+      ghostHeadAnim_3: -2875426964888068074
+      ghostHeadAnim_4: 7344006488228108390
+      ghostHeadAnim_5: 3323439046987901561
+      ghostHeadAnim_6: 2719420655332260912
+      ghostHeadAnim_7: 1547326457360692484
+      ghostHeadAnim_8: 6352354075465485340
+      ghostHeadAnim_9: -5925895007432220474
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

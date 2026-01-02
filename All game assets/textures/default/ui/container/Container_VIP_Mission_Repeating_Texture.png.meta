@@ -1,0 +1,2002 @@
+fileFormatVersion: 2
+guid: a46403291c0766c4bb13f5237a07ad8c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2537315430982739661
+    second: Container_VIP_Mission_Repeating_Texture_0
+  - first:
+      213: 7427041060597740490
+    second: Container_VIP_Mission_Repeating_Texture_1
+  - first:
+      213: -3513955958972966066
+    second: Container_VIP_Mission_Repeating_Texture_2
+  - first:
+      213: 345485162346764394
+    second: Container_VIP_Mission_Repeating_Texture_3
+  - first:
+      213: -7132895590835057904
+    second: Container_VIP_Mission_Repeating_Texture_4
+  - first:
+      213: -3170897952825002944
+    second: Container_VIP_Mission_Repeating_Texture_5
+  - first:
+      213: -6146833421470216919
+    second: Container_VIP_Mission_Repeating_Texture_6
+  - first:
+      213: 355602791749324969
+    second: Container_VIP_Mission_Repeating_Texture_7
+  - first:
+      213: -5680109977156424859
+    second: Container_VIP_Mission_Repeating_Texture_8
+  - first:
+      213: 938588738668248795
+    second: Container_VIP_Mission_Repeating_Texture_9
+  - first:
+      213: -8298082823426115049
+    second: Container_VIP_Mission_Repeating_Texture_10
+  - first:
+      213: 7665526938358566772
+    second: Container_VIP_Mission_Repeating_Texture_11
+  - first:
+      213: -8565040994157907069
+    second: Container_VIP_Mission_Repeating_Texture_12
+  - first:
+      213: -5326832755367310981
+    second: Container_VIP_Mission_Repeating_Texture_13
+  - first:
+      213: 3022340811094341801
+    second: Container_VIP_Mission_Repeating_Texture_14
+  - first:
+      213: 6806068594028237930
+    second: Container_VIP_Mission_Repeating_Texture_15
+  - first:
+      213: -1037675352985122514
+    second: Container_VIP_Mission_Repeating_Texture_16
+  - first:
+      213: 4743161171660308942
+    second: Container_VIP_Mission_Repeating_Texture_17
+  - first:
+      213: 34822524743325371
+    second: Container_VIP_Mission_Repeating_Texture_18
+  - first:
+      213: 1660727925901174463
+    second: Container_VIP_Mission_Repeating_Texture_19
+  - first:
+      213: -2901324473510581956
+    second: Container_VIP_Mission_Repeating_Texture_20
+  - first:
+      213: 6959752170723364444
+    second: Container_VIP_Mission_Repeating_Texture_21
+  - first:
+      213: -6597867189875360715
+    second: Container_VIP_Mission_Repeating_Texture_22
+  - first:
+      213: 3226463718965142969
+    second: Container_VIP_Mission_Repeating_Texture_23
+  - first:
+      213: -2916620421984532749
+    second: Container_VIP_Mission_Repeating_Texture_24
+  - first:
+      213: -2312886822768556201
+    second: Container_VIP_Mission_Repeating_Texture_25
+  - first:
+      213: -477763074156913343
+    second: Container_VIP_Mission_Repeating_Texture_26
+  - first:
+      213: 2280335862670078061
+    second: Container_VIP_Mission_Repeating_Texture_27
+  - first:
+      213: -586207252727306189
+    second: Container_VIP_Mission_Repeating_Texture_28
+  - first:
+      213: -7915477345040716890
+    second: Container_VIP_Mission_Repeating_Texture_29
+  - first:
+      213: 6339246933064640016
+    second: Container_VIP_Mission_Repeating_Texture_30
+  - first:
+      213: 2132088781372519475
+    second: Container_VIP_Mission_Repeating_Texture_31
+  - first:
+      213: -564177530056829892
+    second: Container_VIP_Mission_Repeating_Texture_32
+  - first:
+      213: -3186806917888553467
+    second: Container_VIP_Mission_Repeating_Texture_33
+  - first:
+      213: 497195325157471887
+    second: Container_VIP_Mission_Repeating_Texture_34
+  - first:
+      213: -4113628484538548914
+    second: Container_VIP_Mission_Repeating_Texture_35
+  - first:
+      213: 7535924444941767488
+    second: Container_VIP_Mission_Repeating_Texture_36
+  - first:
+      213: 459482488558236139
+    second: Container_VIP_Mission_Repeating_Texture_37
+  - first:
+      213: 6239267785728464435
+    second: Container_VIP_Mission_Repeating_Texture_38
+  - first:
+      213: 8127920598982125779
+    second: Container_VIP_Mission_Repeating_Texture_39
+  - first:
+      213: 2969186489058174060
+    second: Container_VIP_Mission_Repeating_Texture_40
+  - first:
+      213: 3258363075298055255
+    second: Container_VIP_Mission_Repeating_Texture_41
+  - first:
+      213: 5556189594484643326
+    second: Container_VIP_Mission_Repeating_Texture_42
+  - first:
+      213: 1461412376860094299
+    second: Container_VIP_Mission_Repeating_Texture_43
+  - first:
+      213: -6669814779102433445
+    second: Container_VIP_Mission_Repeating_Texture_44
+  - first:
+      213: 4200660437995202497
+    second: Container_VIP_Mission_Repeating_Texture_45
+  - first:
+      213: -1126980233686899161
+    second: Container_VIP_Mission_Repeating_Texture_46
+  - first:
+      213: -3715595058677651791
+    second: Container_VIP_Mission_Repeating_Texture_47
+  - first:
+      213: -7965191448564549731
+    second: Container_VIP_Mission_Repeating_Texture_48
+  - first:
+      213: 2881833409963858209
+    second: Container_VIP_Mission_Repeating_Texture_49
+  - first:
+      213: -71427962041205806
+    second: Container_VIP_Mission_Repeating_Texture_50
+  - first:
+      213: 2918021426409880219
+    second: Container_VIP_Mission_Repeating_Texture_51
+  - first:
+      213: -8101405443581106956
+    second: Container_VIP_Mission_Repeating_Texture_52
+  - first:
+      213: -1436303743140697780
+    second: Container_VIP_Mission_Repeating_Texture_53
+  - first:
+      213: -5915434155710039840
+    second: Container_VIP_Mission_Repeating_Texture_54
+  - first:
+      213: 1119828193375939994
+    second: Container_VIP_Mission_Repeating_Texture_55
+  - first:
+      213: -7613773439050565676
+    second: Container_VIP_Mission_Repeating_Texture_56
+  - first:
+      213: 9148351702107495363
+    second: Container_VIP_Mission_Repeating_Texture_57
+  - first:
+      213: 512382103084075821
+    second: Container_VIP_Mission_Repeating_Texture_58
+  - first:
+      213: 233100741023694668
+    second: Container_VIP_Mission_Repeating_Texture_59
+  - first:
+      213: 6768612969131811297
+    second: Container_VIP_Mission_Repeating_Texture_60
+  - first:
+      213: 6645457622509421587
+    second: Container_VIP_Mission_Repeating_Texture_61
+  - first:
+      213: 4505026143092122783
+    second: Container_VIP_Mission_Repeating_Texture_62
+  - first:
+      213: 2112887846350885244
+    second: Container_VIP_Mission_Repeating_Texture_63
+  - first:
+      213: 8889272125441553427
+    second: Container_VIP_Mission_Repeating_Texture_64
+  - first:
+      213: 2864312935608232432
+    second: Container_VIP_Mission_Repeating_Texture_65
+  - first:
+      213: 4049414122464667659
+    second: Container_VIP_Mission_Repeating_Texture_66
+  - first:
+      213: -3877574068932964102
+    second: Container_VIP_Mission_Repeating_Texture_67
+  - first:
+      213: 1482312006906931456
+    second: Container_VIP_Mission_Repeating_Texture_68
+  - first:
+      213: 5112946062045658534
+    second: Container_VIP_Mission_Repeating_Texture_69
+  - first:
+      213: 6105694182558896576
+    second: Container_VIP_Mission_Repeating_Texture_70
+  - first:
+      213: 4529093657400948509
+    second: Container_VIP_Mission_Repeating_Texture_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 487
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339182d0f05a9ccd0800000000000000
+      internalID: -2537315430982739661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 448
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac33b259e76221760800000000000000
+      internalID: 7427041060597740490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 485
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b9c0d4cabeb3fc0800000000000000
+      internalID: -3513955958972966066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 448
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68d8d8bce86bc400800000000000000
+      internalID: 345485162346764394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_4
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 485
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b8358704dd20d90800000000000000
+      internalID: -7132895590835057904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_5
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 448
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0443adeac15bef3d0800000000000000
+      internalID: -3170897952825002944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_6
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 485
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92dc4cb029f02baa0800000000000000
+      internalID: -6146833421470216919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_7
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 448
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a01b53eada5fe400800000000000000
+      internalID: 355602791749324969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_8
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 485
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b607ef1123c21b0800000000000000
+      internalID: -5680109977156424859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 413
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdeb0862c79860d00800000000000000
+      internalID: 938588738668248795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 374
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a7ae023a947dc80800000000000000
+      internalID: -8298082823426115049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_11
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 411
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47fcc01032c616a60800000000000000
+      internalID: 7665526938358566772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_12
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 374
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3833f88689cd22980800000000000000
+      internalID: -8565040994157907069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_13
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 411
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b798a6ee4d94316b0800000000000000
+      internalID: -5326832755367310981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_14
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 374
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8b17364f281f920800000000000000
+      internalID: 3022340811094341801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_15
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 411
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64deff7353047e50800000000000000
+      internalID: 6806068594028237930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_16
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 374
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29c429a3cf6991f0800000000000000
+      internalID: -1037675352985122514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_17
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 411
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec10d3d84f713d140800000000000000
+      internalID: 4743161171660308942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb61289d6e6bb7000800000000000000
+      internalID: 34822524743325371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_19
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 301
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb629ebef371c0710800000000000000
+      internalID: 1660727925901174463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_20
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 338
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39214263cc6cb7d0800000000000000
+      internalID: -2901324473510581956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 301
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e48b499b1069060800000000000000
+      internalID: 6959752170723364444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_22
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 338
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c36407fbaaf64a0800000000000000
+      internalID: -6597867189875360715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_23
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 301
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b56a9968a3b6cc20800000000000000
+      internalID: 3226463718965142969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_24
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 338
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f646fadd251687d0800000000000000
+      internalID: -2916620421984532749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_25
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 301
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757c23b50b9f6efd0800000000000000
+      internalID: -2312886822768556201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_26
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 338
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d141ee305ae59f0800000000000000
+      internalID: -477763074156913343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60b807a26165af10800000000000000
+      internalID: 2280335862670078061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_28
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 227
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3386e680c9f5dd7f0800000000000000
+      internalID: -586207252727306189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_29
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 264
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab223dea43962290800000000000000
+      internalID: -7915477345040716890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_30
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 227
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0166dc4bf7789f750800000000000000
+      internalID: 6339246933064640016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_31
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 264
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334fd4b4373b69d10800000000000000
+      internalID: 2132088781372519475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_32
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 227
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3494ba8683ab28f0800000000000000
+      internalID: -564177530056829892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_33
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 264
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ece7b1eff26c3d0800000000000000
+      internalID: -3186806917888553467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_34
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 227
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86fef3938466e600800000000000000
+      internalID: 497195325157471887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_35
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 264
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4db62130b479e6c0800000000000000
+      internalID: -4113628484538548914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 193
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043dfea0b5bf49860800000000000000
+      internalID: 7535924444941767488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_37
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 154
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1b60f83e8606600800000000000000
+      internalID: 459482488558236139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_38
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 191
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33612ea7ef4569650800000000000000
+      internalID: 6239267785728464435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_39
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 154
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d8e8e0a8bc2cc070800000000000000
+      internalID: 8127920598982125779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_40
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 191
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64a330616ba43920800000000000000
+      internalID: 2969186489058174060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_41
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 154
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754d36414f7083d20800000000000000
+      internalID: 3258363075298055255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_42
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 191
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef59afb8ffc8b1d40800000000000000
+      internalID: 5556189594484643326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_43
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 154
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fea1950daf74410800000000000000
+      internalID: 1461412376860094299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_44
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 191
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fe2fdebce0073a0800000000000000
+      internalID: -6669814779102433445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 119
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7adbc896ebb4a30800000000000000
+      internalID: 4200660437995202497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_46
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 80
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726a43ec2792c50f0800000000000000
+      internalID: -1126980233686899161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_47
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 117
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6625eeafd8f6cc0800000000000000
+      internalID: -3715595058677651791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_48
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 80
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97b4543494f57190800000000000000
+      internalID: -7965191448564549731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_49
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 117
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1299fbeb7345ef720800000000000000
+      internalID: 2881833409963858209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_50
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 80
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dbf08f95ac320ff0800000000000000
+      internalID: -71427962041205806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_51
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 117
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ab328e605ee7820800000000000000
+      internalID: 2918021426409880219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_52
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 80
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4aee11ca6029f80800000000000000
+      internalID: -8101405443581106956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_53
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 117
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c49e8800b59311ce0800000000000000
+      internalID: -1436303743140697780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 46
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e8b0b80af728eda0800000000000000
+      internalID: -5915434155710039840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_55
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 7
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9de3ab0fcd6a8f00800000000000000
+      internalID: 1119828193375939994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_56
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 44
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7361d8561765690800000000000000
+      internalID: -7613773439050565676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_57
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 7
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb157c276975fe70800000000000000
+      internalID: 9148351702107495363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_58
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 44
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b089bdec85c1700800000000000000
+      internalID: 512382103084075821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_59
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 7
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ff89193e32c3300800000000000000
+      internalID: 233100741023694668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_60
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 44
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1243f32a1feed50800000000000000
+      internalID: 6768612969131811297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_61
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 7
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314069f9f78693c50800000000000000
+      internalID: 6645457622509421587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_62
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 44
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94aad29861158e30800000000000000
+      internalID: 4505026143092122783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c711cfb3d4c725d10800000000000000
+      internalID: 2112887846350885244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_64
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 0
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314b9b496e90d5b70800000000000000
+      internalID: 8889272125441553427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_65
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 0
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f92c7c607510c720800000000000000
+      internalID: 2864312935608232432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_66
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 0
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08e4fd80b8623830800000000000000
+      internalID: 4049414122464667659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_67
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 0
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af01cf6bde6103ac0800000000000000
+      internalID: -3877574068932964102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_68
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 0
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009ebf9aaea329410800000000000000
+      internalID: 1482312006906931456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_69
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 0
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6adb6f79a55d4f640800000000000000
+      internalID: 5112946062045658534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_70
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 0
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1979a7288cbb450800000000000000
+      internalID: 6105694182558896576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Container_VIP_Mission_Repeating_Texture_71
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 0
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17bbdb6fa29ade30800000000000000
+      internalID: 4529093657400948509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Container_VIP_Mission_Repeating_Texture_0: -2537315430982739661
+      Container_VIP_Mission_Repeating_Texture_1: 7427041060597740490
+      Container_VIP_Mission_Repeating_Texture_10: -8298082823426115049
+      Container_VIP_Mission_Repeating_Texture_11: 7665526938358566772
+      Container_VIP_Mission_Repeating_Texture_12: -8565040994157907069
+      Container_VIP_Mission_Repeating_Texture_13: -5326832755367310981
+      Container_VIP_Mission_Repeating_Texture_14: 3022340811094341801
+      Container_VIP_Mission_Repeating_Texture_15: 6806068594028237930
+      Container_VIP_Mission_Repeating_Texture_16: -1037675352985122514
+      Container_VIP_Mission_Repeating_Texture_17: 4743161171660308942
+      Container_VIP_Mission_Repeating_Texture_18: 34822524743325371
+      Container_VIP_Mission_Repeating_Texture_19: 1660727925901174463
+      Container_VIP_Mission_Repeating_Texture_2: -3513955958972966066
+      Container_VIP_Mission_Repeating_Texture_20: -2901324473510581956
+      Container_VIP_Mission_Repeating_Texture_21: 6959752170723364444
+      Container_VIP_Mission_Repeating_Texture_22: -6597867189875360715
+      Container_VIP_Mission_Repeating_Texture_23: 3226463718965142969
+      Container_VIP_Mission_Repeating_Texture_24: -2916620421984532749
+      Container_VIP_Mission_Repeating_Texture_25: -2312886822768556201
+      Container_VIP_Mission_Repeating_Texture_26: -477763074156913343
+      Container_VIP_Mission_Repeating_Texture_27: 2280335862670078061
+      Container_VIP_Mission_Repeating_Texture_28: -586207252727306189
+      Container_VIP_Mission_Repeating_Texture_29: -7915477345040716890
+      Container_VIP_Mission_Repeating_Texture_3: 345485162346764394
+      Container_VIP_Mission_Repeating_Texture_30: 6339246933064640016
+      Container_VIP_Mission_Repeating_Texture_31: 2132088781372519475
+      Container_VIP_Mission_Repeating_Texture_32: -564177530056829892
+      Container_VIP_Mission_Repeating_Texture_33: -3186806917888553467
+      Container_VIP_Mission_Repeating_Texture_34: 497195325157471887
+      Container_VIP_Mission_Repeating_Texture_35: -4113628484538548914
+      Container_VIP_Mission_Repeating_Texture_36: 7535924444941767488
+      Container_VIP_Mission_Repeating_Texture_37: 459482488558236139
+      Container_VIP_Mission_Repeating_Texture_38: 6239267785728464435
+      Container_VIP_Mission_Repeating_Texture_39: 8127920598982125779
+      Container_VIP_Mission_Repeating_Texture_4: -7132895590835057904
+      Container_VIP_Mission_Repeating_Texture_40: 2969186489058174060
+      Container_VIP_Mission_Repeating_Texture_41: 3258363075298055255
+      Container_VIP_Mission_Repeating_Texture_42: 5556189594484643326
+      Container_VIP_Mission_Repeating_Texture_43: 1461412376860094299
+      Container_VIP_Mission_Repeating_Texture_44: -6669814779102433445
+      Container_VIP_Mission_Repeating_Texture_45: 4200660437995202497
+      Container_VIP_Mission_Repeating_Texture_46: -1126980233686899161
+      Container_VIP_Mission_Repeating_Texture_47: -3715595058677651791
+      Container_VIP_Mission_Repeating_Texture_48: -7965191448564549731
+      Container_VIP_Mission_Repeating_Texture_49: 2881833409963858209
+      Container_VIP_Mission_Repeating_Texture_5: -3170897952825002944
+      Container_VIP_Mission_Repeating_Texture_50: -71427962041205806
+      Container_VIP_Mission_Repeating_Texture_51: 2918021426409880219
+      Container_VIP_Mission_Repeating_Texture_52: -8101405443581106956
+      Container_VIP_Mission_Repeating_Texture_53: -1436303743140697780
+      Container_VIP_Mission_Repeating_Texture_54: -5915434155710039840
+      Container_VIP_Mission_Repeating_Texture_55: 1119828193375939994
+      Container_VIP_Mission_Repeating_Texture_56: -7613773439050565676
+      Container_VIP_Mission_Repeating_Texture_57: 9148351702107495363
+      Container_VIP_Mission_Repeating_Texture_58: 512382103084075821
+      Container_VIP_Mission_Repeating_Texture_59: 233100741023694668
+      Container_VIP_Mission_Repeating_Texture_6: -6146833421470216919
+      Container_VIP_Mission_Repeating_Texture_60: 6768612969131811297
+      Container_VIP_Mission_Repeating_Texture_61: 6645457622509421587
+      Container_VIP_Mission_Repeating_Texture_62: 4505026143092122783
+      Container_VIP_Mission_Repeating_Texture_63: 2112887846350885244
+      Container_VIP_Mission_Repeating_Texture_64: 8889272125441553427
+      Container_VIP_Mission_Repeating_Texture_65: 2864312935608232432
+      Container_VIP_Mission_Repeating_Texture_66: 4049414122464667659
+      Container_VIP_Mission_Repeating_Texture_67: -3877574068932964102
+      Container_VIP_Mission_Repeating_Texture_68: 1482312006906931456
+      Container_VIP_Mission_Repeating_Texture_69: 5112946062045658534
+      Container_VIP_Mission_Repeating_Texture_7: 355602791749324969
+      Container_VIP_Mission_Repeating_Texture_70: 6105694182558896576
+      Container_VIP_Mission_Repeating_Texture_71: 4529093657400948509
+      Container_VIP_Mission_Repeating_Texture_8: -5680109977156424859
+      Container_VIP_Mission_Repeating_Texture_9: 938588738668248795
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
