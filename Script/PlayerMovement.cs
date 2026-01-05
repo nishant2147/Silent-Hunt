@@ -57,7 +57,13 @@ public class PlayerMovement : MonoBehaviour
         if (dir != Vector3.zero)
         {
             float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.Euler(0, 0, angle - 90);
+            Quaternion targetRotation = Quaternion.Euler(0, 0, angle);
+
+            transform.rotation = Quaternion.Lerp(
+           transform.rotation,
+           targetRotation,
+           rotationSpeed * Time.deltaTime
+       );
         }
 
         if (Vector3.Distance(transform.position, targetPosition) < stopDistance)
