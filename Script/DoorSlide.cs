@@ -8,27 +8,27 @@ public class DoorSlide : MonoBehaviour
 
     public float slideDistance = 2f;
     public float slideSpeed = 3f;
-    private float closeDelay = 0.6f;
+    public float closeDelay = 0.6f;
 
     private Vector3 closedPos;
     private Vector3 openPos;
-    private bool isOpen;
-    private Coroutine moveRoutine;
+
+    private Coroutine slideRoutine;
     private Coroutine closeRoutine;
+    private bool isOpen;
 
     void Start()
     {
         closedPos = transform.position;
 
-        if (slideAxis == SlideAxis.X)
-            openPos = closedPos + Vector3.right * slideDistance;
-        else
-            openPos = closedPos + Vector3.up * slideDistance;
+        openPos = slideAxis == SlideAxis.X
+            ? closedPos + Vector3.right * slideDistance
+            : closedPos + Vector3.up * slideDistance;
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        if (!other.CompareTag("Player")) return;
+        if (!collision.collider.CompareTag("Player")) return;
 
         OpenDoor();
 
@@ -43,10 +43,21 @@ public class DoorSlide : MonoBehaviour
         if (isOpen) return;
         isOpen = true;
 
-        if (moveRoutine != null)
-            StopCoroutine(moveRoutine);
+        if (slideRoutine != null)
+            StopCoroutine(slideRoutine);
 
-        moveRoutine = StartCoroutine(SlideDoor(openPos));
+        slideRoutine = StartCoroutine(Slide(openPos));
+    }
+
+    void CloseDoor()
+    {
+        if (!isOpen) return;
+        isOpen = false;
+
+        if (slideRoutine != null)
+            StopCoroutine(slideRoutine);
+
+        slideRoutine = StartCoroutine(Slide(closedPos));
     }
 
     IEnumerator CloseAfterDelay()
@@ -55,18 +66,7 @@ public class DoorSlide : MonoBehaviour
         CloseDoor();
     }
 
-    void CloseDoor()
-    {
-        if (!isOpen) return;
-        isOpen = false;
-
-        if (moveRoutine != null)
-            StopCoroutine(moveRoutine);
-
-        moveRoutine = StartCoroutine(SlideDoor(closedPos));
-    }
-
-    IEnumerator SlideDoor(Vector3 target)
+    IEnumerator Slide(Vector3 target)
     {
         while (Vector3.Distance(transform.position, target) > 0.01f)
         {
@@ -77,5 +77,7 @@ public class DoorSlide : MonoBehaviour
             );
             yield return null;
         }
+
+        transform.position = target;
     }
 }
