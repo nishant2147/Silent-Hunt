@@ -1,66 +1,105 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 4f;
-    public float stopDistance = 0.05f;
+    public LayerMask obstacleLayer;
+
+    [Header("Movement")]
+    public float moveSpeed;
 
     [Header("Rotation")]
     public float rotationSpeed = 10f;
 
-    private Vector3 targetPosition;
-    private bool isMoving;
+    [Header("Opacity")]
+    [Range(0f, 1f)] public float grassOpacity = 0.49f;
+    public float normalOpacity = 1f;
+
+    private NavMeshAgent agent;
+    private SpriteRenderer[] spriteRenderers;
 
     void Start()
     {
-        targetPosition = transform.position;
-        transform.rotation = Quaternion.Euler(0, 0, 90);
+        agent = GetComponent<NavMeshAgent>();
+        spriteRenderers = GetComponentsInChildren<SpriteRenderer>();
+
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
+
+        agent.speed = moveSpeed;
+        agent.acceleration = 50f;
+        agent.stoppingDistance = 0.01f;
+        agent.autoBraking = true;
     }
 
     void Update()
     {
-        HandleInput();
-        MoveToTarget();
+        HandleMouseClick();
+        RotateTowardsMovement();
     }
 
-    void HandleInput()
+    void HandleMouseClick()
     {
         if (Input.GetMouseButtonDown(0))
         {
             Vector3 clickPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            clickPos.z = transform.position.z;
+            clickPos.z = 0f;
 
-            targetPosition = clickPos;
-            isMoving = true;
+            Collider2D hit = Physics2D.OverlapPoint(clickPos, obstacleLayer);
+
+            if (hit != null)
+            {
+                return;
+            }
+
+            if (agent.isOnNavMesh)
+            {
+                agent.SetDestination(clickPos);
+            }
         }
     }
 
-    void MoveToTarget()
+    void RotateTowardsMovement()
     {
-        if (!isMoving) return;
+        if (agent.velocity.sqrMagnitude < 0.01f) return;
 
-        transform.position = Vector3.MoveTowards(
-            transform.position,
-            targetPosition,
-            moveSpeed * Time.deltaTime
+        float angle = Mathf.Atan2(agent.velocity.y, agent.velocity.x) * Mathf.Rad2Deg;
+        Quaternion targetRot = Quaternion.Euler(0, 0, angle);
+
+        transform.rotation = Quaternion.Lerp(
+            transform.rotation,
+            targetRot,
+            rotationSpeed * Time.deltaTime
         );
+    }
 
-        Vector3 dir = targetPosition - transform.position;
-        if (dir.sqrMagnitude > 0.001f)
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (((1 << collision.gameObject.layer) & obstacleLayer) != 0)
         {
-            float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-            Quaternion targetRotation = Quaternion.Euler(0, 0, angle);
-
-            transform.rotation = Quaternion.Lerp(
-                transform.rotation,
-                targetRotation,
-                rotationSpeed * Time.deltaTime
-            );
+            agent.ResetPath();
         }
+    }
 
-        if (Vector3.Distance(transform.position, targetPosition) <= stopDistance)
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Grass"))
+            SetOpacity(grassOpacity);
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Grass"))
+            SetOpacity(normalOpacity);
+    }
+
+    void SetOpacity(float alpha)
+    {
+        foreach (SpriteRenderer sr in spriteRenderers)
         {
-            isMoving = false;
+            Color c = sr.color;
+            c.a = alpha;
+            sr.color = c;
         }
     }
 }

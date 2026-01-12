@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class DoorSlide : MonoBehaviour
 {
@@ -17,8 +18,12 @@ public class DoorSlide : MonoBehaviour
     private Coroutine closeRoutine;
     private bool isOpen;
 
+    private NavMeshObstacle navObstacle;
+
     void Start()
     {
+        navObstacle = GetComponent<NavMeshObstacle>();
+
         closedPos = transform.position;
 
         openPos = slideAxis == SlideAxis.X
@@ -43,6 +48,8 @@ public class DoorSlide : MonoBehaviour
         if (isOpen) return;
         isOpen = true;
 
+        navObstacle.enabled = false;
+
         if (slideRoutine != null)
             StopCoroutine(slideRoutine);
 
@@ -54,11 +61,14 @@ public class DoorSlide : MonoBehaviour
         if (!isOpen) return;
         isOpen = false;
 
+        navObstacle.enabled = true; 
+
         if (slideRoutine != null)
             StopCoroutine(slideRoutine);
 
         slideRoutine = StartCoroutine(Slide(closedPos));
     }
+
 
     IEnumerator CloseAfterDelay()
     {
