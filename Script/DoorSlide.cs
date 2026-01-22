@@ -33,7 +33,7 @@ public class DoorSlide : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (!collision.collider.CompareTag("Player")) return;
+        if (!IsPlayerOrEnemy(collision.collider)) return;
 
         OpenDoor();
 
@@ -41,6 +41,10 @@ public class DoorSlide : MonoBehaviour
             StopCoroutine(closeRoutine);
 
         closeRoutine = StartCoroutine(CloseAfterDelay());
+    }
+    bool IsPlayerOrEnemy(Collider2D col)
+    {
+        return col.CompareTag("Player") || col.CompareTag("Enemy");
     }
 
     void OpenDoor()

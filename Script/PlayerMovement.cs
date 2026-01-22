@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask obstacleLayer;
 
     [Header("Movement")]
-    public float moveSpeed;
+    public float moveSpeed = 4f;
 
     [Header("Rotation")]
     public float rotationSpeed = 10f;
@@ -17,10 +17,12 @@ public class PlayerMovement : MonoBehaviour
 
     private NavMeshAgent agent;
     private SpriteRenderer[] spriteRenderers;
+    private Animator animator;
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        animator = GetComponent<Animator>();
         spriteRenderers = GetComponentsInChildren<SpriteRenderer>();
 
         agent.updateRotation = false;
@@ -28,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
 
         agent.speed = moveSpeed;
         agent.acceleration = 50f;
-        agent.stoppingDistance = 0.01f;
+        agent.stoppingDistance = 0.05f;
         agent.autoBraking = true;
     }
 
@@ -36,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
     {
         HandleMouseClick();
         RotateTowardsMovement();
+        UpdateAnimation();
     }
 
     void HandleMouseClick()
@@ -45,17 +48,11 @@ public class PlayerMovement : MonoBehaviour
             Vector3 clickPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             clickPos.z = 0f;
 
-            Collider2D hit = Physics2D.OverlapPoint(clickPos, obstacleLayer);
-
-            if (hit != null)
-            {
+            if (Physics2D.OverlapPoint(clickPos, obstacleLayer))
                 return;
-            }
 
             if (agent.isOnNavMesh)
-            {
                 agent.SetDestination(clickPos);
-            }
         }
     }
 
@@ -71,6 +68,19 @@ public class PlayerMovement : MonoBehaviour
             targetRot,
             rotationSpeed * Time.deltaTime
         );
+    }
+
+    void UpdateAnimation()
+    {
+        bool isMoving = agent.velocity.magnitude > 0.1f;
+
+        animator.SetBool("isWalking", isMoving);
+
+        if (isMoving)
+        {
+            animator.SetFloat("MoveX", agent.velocity.x);
+            animator.SetFloat("MoveY", agent.velocity.y);
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
