@@ -36,6 +36,13 @@ public class EnemyVisionChase : MonoBehaviour
 
     void Update()
     {
+        if (!GameManager.Instance.isGameStarted)
+        {
+            agent.ResetPath();
+            animator.SetFloat("Speed", 0f);
+            return;
+        }
+
         if (PlayerDetected())
         {
             wasChasing = true;

@@ -36,6 +36,13 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if (!GameManager.Instance.isGameStarted)
+        {
+            agent.ResetPath();
+            animator.SetBool("isWalking", false);
+            return;
+        }
+
         HandleMouseClick();
         RotateTowardsMovement();
         UpdateAnimation();

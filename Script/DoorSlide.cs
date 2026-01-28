@@ -33,6 +33,9 @@ public class DoorSlide : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        if (!GameManager.Instance.isGameStarted)
+            return;
+
         if (!IsPlayerOrEnemy(collision.collider)) return;
 
         OpenDoor();

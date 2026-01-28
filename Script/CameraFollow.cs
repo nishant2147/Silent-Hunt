@@ -25,6 +25,9 @@ public class CameraFollow : MonoBehaviour
 
     void LateUpdate()
     {
+        if (!GameManager.Instance.isGameStarted)
+            return;
+
         if (player == null) return;
 
         Vector3 targetPos = new Vector3(
