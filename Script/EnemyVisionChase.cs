@@ -111,6 +111,9 @@ public class EnemyVisionChase : MonoBehaviour
 
         if (isWaiting)
         {
+            agent.isStopped = true;
+            animator.SetBool("isWalking", false);
+
             waitTimer += Time.deltaTime;
             if (waitTimer >= waitTime)
             {
@@ -118,15 +121,22 @@ public class EnemyVisionChase : MonoBehaviour
                 waitTimer = 0f;
 
                 patrolIndex = (patrolIndex + 1) % patrolPoints.Length;
+                agent.isStopped = false;
                 agent.SetDestination(patrolPoints[patrolIndex].position);
             }
             return;
+        }
+
+        if (!agent.pathPending && agent.remainingDistance > 0.2f)
+        {
+            animator.SetBool("isWalking", true);
         }
 
         if (!agent.pathPending && agent.remainingDistance <= 0.2f)
         {
             isWaiting = true;
             agent.ResetPath();
+            animator.SetBool("isWalking", false);
         }
     }
     void UpdateAnimator()
