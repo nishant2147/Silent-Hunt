@@ -10,13 +10,19 @@ public class EnemyVisionChase : MonoBehaviour
     public Transform sprite;
 
     [Header("Search Behaviour")]
-    public float searchWaitTime;
+    public float PlayersearchWaitTime;
     public float searchRotateSpeed = 180f;
 
     private Vector3 lastSeenPosition;
     private bool wasChasing;
     private bool isSearching;
     private float searchTimer;
+
+    [Header("Last Seen Wait")]
+    public float waitBeforeSearch;
+
+    private float waitBeforeSearchTimer;
+    private bool isWaitingAtLastSeen;
 
     private NavMeshAgent agent;
     private Animator animator;
@@ -47,6 +53,7 @@ public class EnemyVisionChase : MonoBehaviour
         {
             wasChasing = true;
             isSearching = false;
+            isWaitingAtLastSeen = false;
             ChasePlayer();
         }
         else
@@ -55,6 +62,14 @@ public class EnemyVisionChase : MonoBehaviour
             {
                 GoToLastSeenPosition();
             }
+            else if (isWaitingAtLastSeen)
+            {
+                HandleWaitBeforeSearch();
+            }
+            else if (isSearching)
+            {
+                HandleSearchLook();
+            }
             else
             {
                 Patrol();
@@ -62,7 +77,6 @@ public class EnemyVisionChase : MonoBehaviour
         }
 
         UpdateAnimator();
-        HandleSearchLook();
         RotateSprite();
         LockZPosition();
     }
@@ -85,7 +99,20 @@ public class EnemyVisionChase : MonoBehaviour
         if (!agent.pathPending && agent.remainingDistance <= 0.2f)
         {
             agent.ResetPath();
+            isWaitingAtLastSeen = true;
+            waitBeforeSearchTimer = 0f;
+
             wasChasing = false;
+        }
+    }
+    void HandleWaitBeforeSearch()
+    {
+        waitBeforeSearchTimer += Time.deltaTime;
+        animator.SetFloat("Speed", 0f);
+
+        if (waitBeforeSearchTimer >= waitBeforeSearch)
+        {
+            isWaitingAtLastSeen = false;
             isSearching = true;
             searchTimer = 0f;
         }
@@ -95,13 +122,15 @@ public class EnemyVisionChase : MonoBehaviour
         if (!isSearching) return;
 
         searchTimer += Time.deltaTime;
-
         sprite.Rotate(0, 0, searchRotateSpeed * Time.deltaTime);
 
-        if (searchTimer >= searchWaitTime)
+        if (searchTimer >= PlayersearchWaitTime)
         {
             isSearching = false;
             sprite.rotation = Quaternion.identity;
+
+            patrolIndex = (patrolIndex + 1) % patrolPoints.Length;
+            agent.SetDestination(patrolPoints[patrolIndex].position);
         }
     }
 

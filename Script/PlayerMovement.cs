@@ -15,6 +15,9 @@ public class PlayerMovement : MonoBehaviour
     [Range(0f, 1f)] public float grassOpacity = 0.49f;
     public float normalOpacity = 1f;
 
+    [Header("Arrow Line Renderer")]
+    public LineRenderer moveArrowLine;
+
     private NavMeshAgent agent;
     private SpriteRenderer[] spriteRenderers;
     private Animator animator;
@@ -32,6 +35,9 @@ public class PlayerMovement : MonoBehaviour
         agent.acceleration = 50f;
         agent.stoppingDistance = 0.05f;
         agent.autoBraking = true;
+
+        moveArrowLine.positionCount = 0;
+        moveArrowLine.enabled = false;
     }
 
     void Update()
@@ -46,6 +52,36 @@ public class PlayerMovement : MonoBehaviour
         HandleMouseClick();
         RotateTowardsMovement();
         UpdateAnimation();
+
+        UpdateLineFromNavMesh();
+
+        if (!agent.pathPending &&
+            agent.remainingDistance <= agent.stoppingDistance &&
+            agent.hasPath)
+        {
+            HideArrowLine();
+            agent.ResetPath();
+        }
+    }
+    void HideArrowLine()
+    {
+        moveArrowLine.positionCount = 0;
+        moveArrowLine.enabled = false;
+    }
+    void UpdateLineFromNavMesh()
+    {
+        if (!agent.hasPath || agent.path.corners.Length < 2)
+            return;
+
+        NavMeshPath path = agent.path;
+        moveArrowLine.positionCount = path.corners.Length;
+
+        for (int i = 0; i < path.corners.Length; i++)
+        {
+            Vector3 pos = path.corners[i];
+            pos.z = -1f;
+            moveArrowLine.SetPosition(i, pos);
+        }
     }
 
     void HandleMouseClick()
@@ -59,10 +95,12 @@ public class PlayerMovement : MonoBehaviour
                 return;
 
             if (agent.isOnNavMesh)
+            {
                 agent.SetDestination(clickPos);
+                moveArrowLine.enabled = true;
+            }
         }
     }
-
     void RotateTowardsMovement()
     {
         if (agent.velocity.sqrMagnitude < 0.01f) return;

@@ -68,7 +68,7 @@ public class DoorSlide : MonoBehaviour
         if (!isOpen) return;
         isOpen = false;
 
-        navObstacle.enabled = true; 
+        navObstacle.enabled = true;
 
         if (slideRoutine != null)
             StopCoroutine(slideRoutine);
