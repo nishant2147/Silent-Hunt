@@ -21,8 +21,22 @@ public class EnemyVisionChase : MonoBehaviour
     [Header("Last Seen Wait")]
     public float waitBeforeSearch;
 
+    [Header("Attack")]
+    public float attackRange;
+    private int currentAttackIndex;
+    public float attackDelay;
+    private float attackTimer;
+
+    private bool isAttacking;
+
     private float waitBeforeSearchTimer;
     private bool isWaitingAtLastSeen;
+
+    [Header("Shooting")]
+    public GameObject bulletPrefab;
+    public Transform firePoint;
+    public float fireRate;
+    private float fireTimer;
 
     private NavMeshAgent agent;
     private Animator animator;
@@ -49,15 +63,51 @@ public class EnemyVisionChase : MonoBehaviour
             return;
         }
 
+        if (GameManager.Instance.isPlayerSpotted)
+        {
+            float dist = Vector2.Distance(transform.position, player.position);
+
+            if (dist <= attackRange)
+            {
+                StartAttack();
+
+                if (isAttacking)
+                    HandleAttackLoop();
+                AutoShoot();
+            }
+            else
+            {
+                StopAttack();
+                agent.isStopped = false;
+                agent.SetDestination(player.position);
+            }
+
+            RotateTowardsPlayer();
+            UpdateAnimator();
+            LockZPosition();
+            return;
+        }
+
         if (PlayerDetected())
         {
+            AutoShoot();
+        }
+
+        if (PlayerInAttackRange())
+        {
+            StartAttack();
+        }
+        else if (PlayerDetected())
+        {
+            StopAttack();
             wasChasing = true;
             isSearching = false;
             isWaitingAtLastSeen = false;
-            ChasePlayer();
         }
         else
         {
+            StopAttack();
+
             if (wasChasing)
             {
                 GoToLastSeenPosition();
@@ -76,11 +126,97 @@ public class EnemyVisionChase : MonoBehaviour
             }
         }
 
-        UpdateAnimator();
-        RotateSprite();
-        LockZPosition();
-    }
+        if (isAttacking)
+        {
+            HandleAttackLoop();
+        }
 
+        RotateSprite();
+    }
+    void AutoShoot()
+    {
+        Debug.Log("Shooting...");
+        fireTimer += Time.deltaTime;
+
+        if (fireTimer >= fireRate)
+        {
+            fireTimer = 0f;
+            FireBullet();
+        }
+    }
+    void FireBullet()
+    {
+        if (player == null) return;
+
+        Vector2 direction = (player.position - firePoint.position).normalized;
+
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+
+        GameObject bullet = Instantiate(
+          bulletPrefab,
+          firePoint.position,
+          Quaternion.Euler(0f, 0f, angle - 90f)
+      );
+
+
+        bullet.GetComponent<EnemyBullet>().SetDirection(direction);
+    }
+    void RotateTowardsPlayer()
+    {
+        Vector2 dir = player.position - transform.position;
+        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        sprite.rotation = Quaternion.Euler(0, 0, angle);
+    }
+    void HandleAttackLoop()
+    {
+        attackTimer += Time.deltaTime;
+
+        if (attackTimer >= attackDelay)
+        {
+            attackTimer = 0f;
+
+            currentAttackIndex++;
+
+            if (currentAttackIndex > 2)
+                currentAttackIndex = 0;
+
+            animator.SetInteger("attackIndex", currentAttackIndex);
+        }
+
+        RotateTowardsPlayer();
+    }
+    void StartAttack()
+    {
+        if (isAttacking) return;
+
+        isAttacking = true;
+        currentAttackIndex = 0;
+        attackTimer = 0f;
+
+        agent.ResetPath();
+        agent.isStopped = true;
+
+        animator.SetInteger("attackIndex", currentAttackIndex);
+        animator.SetBool("isAttacking", true);
+        animator.SetFloat("Speed", 0f);
+    }
+    void StopAttack()
+    {
+        if (!isAttacking) return;
+
+        isAttacking = false;
+        attackTimer = 0f;
+
+        agent.isStopped = false;
+
+        animator.SetBool("isAttacking", false);
+        animator.SetFloat("Speed", 0f);
+    }
+    bool PlayerInAttackRange()
+    {
+        float dist = Vector2.Distance(transform.position, player.position);
+        return dist <= attackRange;
+    }
     bool PlayerDetected()
     {
         float dist = Vector2.Distance(transform.position, player.position);
@@ -172,6 +308,7 @@ public class EnemyVisionChase : MonoBehaviour
     {
         float speed = agent.velocity.magnitude;
         animator.SetFloat("Speed", speed);
+        animator.SetInteger("attackIndex", currentAttackIndex);
     }
 
     void RotateSprite()

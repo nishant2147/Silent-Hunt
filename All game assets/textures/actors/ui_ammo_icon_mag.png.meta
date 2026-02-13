@@ -121,7 +121,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 53
+        width: 52
         height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -141,9 +141,9 @@ TextureImporter:
       name: ui_ammo_icon_mag_1
       rect:
         serializedVersion: 2
-        x: 55
+        x: 56
         y: 0
-        width: 53
+        width: 52
         height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -163,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4949d02250ceeb84eac771acd2f32114
     internalID: 0
     vertices: []
     indices: 

@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -17,6 +18,11 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Arrow Line Renderer")]
     public LineRenderer moveArrowLine;
+
+    public float attackDuration = 0.4f;
+
+    private bool isAttacking;
+    private GameObject currentEnemy;
 
     private NavMeshAgent agent;
     private SpriteRenderer[] spriteRenderers;
@@ -117,8 +123,9 @@ public class PlayerMovement : MonoBehaviour
 
     void UpdateAnimation()
     {
-        bool isMoving = agent.velocity.magnitude > 0.1f;
+        if (isAttacking) return;
 
+        bool isMoving = agent.velocity.magnitude > 0.1f;
         animator.SetBool("isWalking", isMoving);
 
         if (isMoving)
@@ -130,10 +137,38 @@ public class PlayerMovement : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.CompareTag("Enemy") && !isAttacking)
+        {
+            currentEnemy = collision.gameObject;
+            StartCoroutine(AttackEnemy());
+        }
+
         if (((1 << collision.gameObject.layer) & obstacleLayer) != 0)
         {
             agent.ResetPath();
         }
+    }
+    IEnumerator AttackEnemy()
+    {
+        isAttacking = true;
+
+        agent.ResetPath();
+
+        animator.SetBool("isWalking", false);
+        animator.SetBool("isAttacking", true);
+
+        yield return new WaitForSeconds(attackDuration);
+
+
+        if (currentEnemy != null)
+        {
+            Destroy(currentEnemy);
+
+            GameManager.Instance.isPlayerSpotted = true;
+        }
+
+        animator.SetBool("isAttacking", false);
+        isAttacking = false;
     }
 
     private void OnTriggerEnter2D(Collider2D other)

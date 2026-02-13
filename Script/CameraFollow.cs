@@ -11,9 +11,15 @@ public class CameraFollow : MonoBehaviour
     public Vector2 minLimit;
     public Vector2 maxLimit;
 
+    [Header("Look Ahead")]
+    public float lookAheadAmount;
+
     private Vector3 velocity = Vector3.zero;
     private float fixedZ;
     private Camera cam;
+
+    private float lastPlayerY;
+    private float currentLookAheadY;
 
     void Start()
     {
@@ -21,6 +27,7 @@ public class CameraFollow : MonoBehaviour
 
         cam = GetComponent<Camera>();
         fixedZ = transform.position.z;
+        lastPlayerY = player.position.y;
     }
 
     void LateUpdate()
@@ -30,9 +37,18 @@ public class CameraFollow : MonoBehaviour
 
         if (player == null) return;
 
+        float deltaY = player.position.y - lastPlayerY;
+
+        if (deltaY > 0.01f)
+            currentLookAheadY = lookAheadAmount;
+        else if (deltaY < -0.01f)
+            currentLookAheadY = -lookAheadAmount;
+
+        lastPlayerY = player.position.y;
+
         Vector3 targetPos = new Vector3(
             player.position.x,
-            player.position.y,
+            player.position.y + currentLookAheadY,
             fixedZ
         );
 
