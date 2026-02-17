@@ -5,6 +5,7 @@ public class EnemyBullet : MonoBehaviour
     public float speed = 8f;
     public float lifeTime = 3f;
     private Vector2 direction;
+    public int damage;
 
     public void SetDirection(Vector2 dir)
     {
@@ -21,6 +22,13 @@ public class EnemyBullet : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
+
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(damage);
+            }
+
             Destroy(gameObject);
         }
     }

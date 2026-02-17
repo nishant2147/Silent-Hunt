@@ -6276,6 +6276,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1092132476}
   - component: {fileID: 1092132477}
+  - component: {fileID: 1092132478}
   m_Layer: 0
   m_Name: leg_1
   m_TagString: Untagged
@@ -6353,6 +6354,65 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &1092132478
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092132475}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.19, y: 0.54}
+    newSize: {x: 1.19, y: 0.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.385, y: 0.21}
+      - {x: 0.255, y: 0.17}
+      - {x: 0.085, y: 0.26999998}
+      - {x: -0.42499998, y: 0.26999998}
+      - {x: -0.515, y: 0.24}
+      - {x: -0.59499997, y: 0.11}
+      - {x: -0.59499997, y: -0.12}
+      - {x: -0.475, y: -0.26999998}
+      - {x: 0.114999995, y: -0.26999998}
+      - {x: 0.405, y: -0.22999999}
+      - {x: 0.59499997, y: -0.12}
+      - {x: 0.59499997, y: 0.08}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1092237449
 GameObject:
   m_ObjectHideFlags: 0
@@ -19697,6 +19757,7 @@ MonoBehaviour:
   grassOpacity: 0.49
   normalOpacity: 1
   moveArrowLine: {fileID: 0}
+  EnemybloodEffectPrefab: {fileID: 0}
   attackDuration: 0.4
 --- !u!195 &1487366438
 NavMeshAgent:
@@ -21690,6 +21751,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1890455886}
   - component: {fileID: 1890455887}
+  - component: {fileID: 1890455888}
   m_Layer: 0
   m_Name: leg_2
   m_TagString: Untagged
@@ -21767,6 +21829,65 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &1890455888
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890455885}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.19, y: 0.54}
+    newSize: {x: 1.19, y: 0.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.385, y: 0.21}
+      - {x: 0.255, y: 0.17}
+      - {x: 0.085, y: 0.26999998}
+      - {x: -0.42499998, y: 0.26999998}
+      - {x: -0.515, y: 0.24}
+      - {x: -0.59499997, y: 0.11}
+      - {x: -0.59499997, y: -0.12}
+      - {x: -0.475, y: -0.26999998}
+      - {x: 0.114999995, y: -0.26999998}
+      - {x: 0.405, y: -0.22999999}
+      - {x: 0.59499997, y: -0.12}
+      - {x: 0.59499997, y: 0.08}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1897181146
 GameObject:
   m_ObjectHideFlags: 0
@@ -23211,6 +23332,7 @@ GameObject:
   - component: {fileID: 1986220556}
   - component: {fileID: 1986220558}
   - component: {fileID: 1986220559}
+  - component: {fileID: 1986220560}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -23398,6 +23520,7 @@ MonoBehaviour:
   grassOpacity: 0.49
   normalOpacity: 1
   moveArrowLine: {fileID: 982819827}
+  EnemybloodEffectPrefab: {fileID: 3825046120550962372, guid: f0177302a7c47454295cd5153abf6dc8, type: 3}
   attackDuration: 0.4
 --- !u!195 &1986220559
 NavMeshAgent:
@@ -23421,6 +23544,20 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &1986220560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986220552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a098e26450b84374aa66cb39e83c507e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 50
+  bloodEffectPrefab: {fileID: 3825046120550962372, guid: f0177302a7c47454295cd5153abf6dc8, type: 3}
 --- !u!1 &2024529067
 GameObject:
   m_ObjectHideFlags: 0

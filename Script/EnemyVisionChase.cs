@@ -56,35 +56,15 @@ public class EnemyVisionChase : MonoBehaviour
 
     void Update()
     {
+        if (GameManager.Instance.globalAlert && !PlayerDetected())
+        {
+            GoToKillPosition();
+        }
+
         if (!GameManager.Instance.isGameStarted)
         {
             agent.ResetPath();
             animator.SetFloat("Speed", 0f);
-            return;
-        }
-
-        if (GameManager.Instance.isPlayerSpotted)
-        {
-            float dist = Vector2.Distance(transform.position, player.position);
-
-            if (dist <= attackRange)
-            {
-                StartAttack();
-
-                if (isAttacking)
-                    HandleAttackLoop();
-                AutoShoot();
-            }
-            else
-            {
-                StopAttack();
-                agent.isStopped = false;
-                agent.SetDestination(player.position);
-            }
-
-            RotateTowardsPlayer();
-            UpdateAnimator();
-            LockZPosition();
             return;
         }
 
@@ -95,11 +75,13 @@ public class EnemyVisionChase : MonoBehaviour
 
         if (PlayerInAttackRange())
         {
+            RotateTowardsPlayer();
             StartAttack();
         }
         else if (PlayerDetected())
         {
             StopAttack();
+            RotateTowardsPlayer();
             wasChasing = true;
             isSearching = false;
             isWaitingAtLastSeen = false;
@@ -131,7 +113,24 @@ public class EnemyVisionChase : MonoBehaviour
             HandleAttackLoop();
         }
 
-        RotateSprite();
+        if (!isAttacking)
+        {
+            RotateSprite();
+        }
+
+        UpdateAnimator();
+        LockZPosition();
+        return;
+    }
+    void GoToKillPosition()
+    {
+        agent.isStopped = false;
+        agent.SetDestination(GameManager.Instance.lastKillPosition);
+
+        if (!agent.pathPending && agent.remainingDistance <= 0.2f)
+        {
+            GameManager.Instance.ResetAlert();
+        }
     }
     void AutoShoot()
     {

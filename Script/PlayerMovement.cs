@@ -19,6 +19,9 @@ public class PlayerMovement : MonoBehaviour
     [Header("Arrow Line Renderer")]
     public LineRenderer moveArrowLine;
 
+    [Header("EnemyBlood Effect")]
+    public GameObject EnemybloodEffectPrefab;
+
     public float attackDuration = 0.4f;
 
     private bool isAttacking;
@@ -88,6 +91,14 @@ public class PlayerMovement : MonoBehaviour
             pos.z = -1f;
             moveArrowLine.SetPosition(i, pos);
         }
+
+        if (currentEnemy != null && !isAttacking)
+        {
+            if (agent.isOnNavMesh)
+            {
+                agent.SetDestination(currentEnemy.transform.position);
+            }
+        }
     }
 
     void HandleMouseClick()
@@ -96,6 +107,20 @@ public class PlayerMovement : MonoBehaviour
         {
             Vector3 clickPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             clickPos.z = 0f;
+            Collider2D hit = Physics2D.OverlapPoint(clickPos);
+
+            if (hit != null && hit.CompareTag("Enemy"))
+            {
+                currentEnemy = hit.gameObject;
+
+                if (agent.isOnNavMesh)
+                {
+                    agent.SetDestination(currentEnemy.transform.position);
+                    moveArrowLine.enabled = true;
+                }
+
+                return;
+            }
 
             if (Physics2D.OverlapPoint(clickPos, obstacleLayer))
                 return;
@@ -162,9 +187,13 @@ public class PlayerMovement : MonoBehaviour
 
         if (currentEnemy != null)
         {
-            Destroy(currentEnemy);
+            Vector3 killPos = currentEnemy.transform.position;
 
-            GameManager.Instance.isPlayerSpotted = true;
+            Instantiate(EnemybloodEffectPrefab, killPos, Quaternion.identity);
+
+            GameManager.Instance.AlertEnemies(killPos);
+
+            Destroy(currentEnemy);
         }
 
         animator.SetBool("isAttacking", false);

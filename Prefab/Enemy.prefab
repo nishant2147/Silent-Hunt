@@ -241,16 +241,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db09e5776fedabb48af4f2d0e126385e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewRadius: 5
-  viewAngle: 90
-  playerLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  moveSpeed: 2.5
-  stopDistance: 0.7
+  player: {fileID: 0}
+  detectRadius: 0
+  patrolPoints: []
+  waitTime: 0
+  sprite: {fileID: 0}
+  PlayersearchWaitTime: 0
+  searchRotateSpeed: 180
+  waitBeforeSearch: 0
+  attackRange: 0
+  attackDelay: 0
+  bulletPrefab: {fileID: 0}
+  firePoint: {fileID: 0}
+  fireRate: 0
 --- !u!1 &1991778784175006065
 GameObject:
   m_ObjectHideFlags: 0
