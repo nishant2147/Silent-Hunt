@@ -23,11 +23,20 @@ public class CameraFollow : MonoBehaviour
 
     void Start()
     {
-        if (player == null) return;
-
         cam = GetComponent<Camera>();
         fixedZ = transform.position.z;
-        lastPlayerY = player.position.y;
+
+        FindPlayer();
+    }
+    void FindPlayer()
+    {
+        GameObject p = GameObject.FindGameObjectWithTag("Player");
+
+        if (p != null)
+        {
+            player = p.transform;
+            lastPlayerY = player.position.y;
+        }
     }
 
     void LateUpdate()
@@ -35,7 +44,12 @@ public class CameraFollow : MonoBehaviour
         if (!GameManager.Instance.isGameStarted)
             return;
 
-        if (player == null) return;
+
+        if (player == null)
+        {
+            FindPlayer();
+            return;
+        }
 
         float deltaY = player.position.y - lastPlayerY;
 

@@ -22,6 +22,8 @@ public class PlayerMovement : MonoBehaviour
     [Header("EnemyBlood Effect")]
     public GameObject EnemybloodEffectPrefab;
 
+    [HideInInspector] public bool isInGrass;
+
     public float attackDuration = 0.4f;
 
     private bool isAttacking;
@@ -30,6 +32,9 @@ public class PlayerMovement : MonoBehaviour
     private NavMeshAgent agent;
     private SpriteRenderer[] spriteRenderers;
     private Animator animator;
+    private Transform followTarget;
+    private bool isFollowingEnemy;
+    private GameObject currentTargetIndicator;
 
     void Start()
     {
@@ -109,21 +114,25 @@ public class PlayerMovement : MonoBehaviour
             clickPos.z = 0f;
             Collider2D hit = Physics2D.OverlapPoint(clickPos);
 
-            if (hit != null && hit.CompareTag("Enemy"))
+            if (hit != null)
             {
-                currentEnemy = hit.gameObject;
-
-                if (agent.isOnNavMesh)
+                if (hit.CompareTag("Enemy"))
                 {
-                    agent.SetDestination(currentEnemy.transform.position);
-                    moveArrowLine.enabled = true;
+                    followTarget = hit.transform;
+                    isFollowingEnemy = true;
+                    moveArrowLine.enabled = false;
+                    ShowTargetIndicator(hit.gameObject);
+                    return;
                 }
 
-                return;
+                if (((1 << hit.gameObject.layer) & obstacleLayer) != 0)
+                    return;
             }
 
-            if (Physics2D.OverlapPoint(clickPos, obstacleLayer))
-                return;
+            ClearTargetIndicator();
+
+            isFollowingEnemy = false;
+            followTarget = null;
 
             if (agent.isOnNavMesh)
             {
@@ -131,6 +140,74 @@ public class PlayerMovement : MonoBehaviour
                 moveArrowLine.enabled = true;
             }
         }
+
+        FollowEnemyTarget();
+    }
+    void FollowEnemyTarget()
+    {
+        if (!isFollowingEnemy || followTarget == null)
+            return;
+
+        if (agent.isOnNavMesh)
+        {
+            agent.SetDestination(followTarget.position);
+        }
+    }
+    void ShowTargetIndicator(GameObject enemy)
+    {
+        if (currentTargetIndicator != null)
+        {
+            currentTargetIndicator.SetActive(false);
+            currentTargetIndicator.transform.localScale = Vector3.one;
+        }
+
+        Transform indicator = enemy.transform.Find("TargetIndicator");
+
+        if (indicator != null)
+        {
+            currentTargetIndicator = indicator.gameObject;
+            currentTargetIndicator.SetActive(true);
+
+            StartCoroutine(TargetScaleEffect(currentTargetIndicator.transform));
+        }
+    }
+    void ClearTargetIndicator()
+    {
+        if (currentTargetIndicator != null)
+        {
+            currentTargetIndicator.SetActive(false);
+            currentTargetIndicator.transform.localScale = Vector3.one;
+            currentTargetIndicator = null;
+        }
+
+        followTarget = null;
+        isFollowingEnemy = false;
+    }
+    IEnumerator TargetScaleEffect(Transform target)
+    {
+        float duration = 0.2f;
+        float timer = 0f;
+
+        Vector3 startScale = Vector3.one;
+        Vector3 maxScale = Vector3.one * 1.5f;
+
+        while (timer < duration)
+        {
+            timer += Time.deltaTime;
+            target.localScale = Vector3.Lerp(startScale, maxScale, timer / duration);
+            yield return null;
+        }
+
+        timer = 0f;
+
+        while (timer < duration)
+        {
+            timer += Time.deltaTime;
+            target.localScale = Vector3.Lerp(maxScale, startScale, timer / duration);
+            yield return null;
+        }
+
+        target.localScale = startScale;
     }
     void RotateTowardsMovement()
     {
@@ -196,6 +273,12 @@ public class PlayerMovement : MonoBehaviour
             Destroy(currentEnemy);
         }
 
+        if (currentTargetIndicator != null)
+        {
+            currentTargetIndicator.SetActive(false);
+            currentTargetIndicator = null;
+        }
+
         animator.SetBool("isAttacking", false);
         isAttacking = false;
     }
@@ -203,13 +286,19 @@ public class PlayerMovement : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Grass"))
+        {
+            isInGrass = true;
             SetOpacity(grassOpacity);
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Grass"))
+        {
+            isInGrass = false;
             SetOpacity(normalOpacity);
+        }
     }
 
     void SetOpacity(float alpha)

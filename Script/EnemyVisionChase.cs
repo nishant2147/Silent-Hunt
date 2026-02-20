@@ -9,6 +9,9 @@ public class EnemyVisionChase : MonoBehaviour
     public float waitTime;
     public Transform sprite;
 
+    [Header("Vision")]
+    public LayerMask obstacleLayer;
+
     [Header("Search Behaviour")]
     public float PlayersearchWaitTime;
     public float searchRotateSpeed = 180f;
@@ -218,8 +221,40 @@ public class EnemyVisionChase : MonoBehaviour
     }
     bool PlayerDetected()
     {
+        if (player == null)
+            return false;
+
+        PlayerMovement playerMovement = player.GetComponent<PlayerMovement>();
+
+        if (playerMovement != null && playerMovement.isInGrass)
+            return false;
+
         float dist = Vector2.Distance(transform.position, player.position);
-        return dist <= detectRadius;
+
+        if (dist > detectRadius)
+            return false;
+
+        Vector2 direction = (player.position - transform.position).normalized;
+
+        RaycastHit2D hit = Physics2D.Raycast(
+            transform.position,
+            direction,
+            detectRadius,
+            obstacleLayer
+        );
+
+        if (hit.collider != null)
+        {
+            float wallDist = Vector2.Distance(transform.position, hit.point);
+            float playerDist = Vector2.Distance(transform.position, player.position);
+
+            if (wallDist < playerDist)
+            {
+                return false;
+            }
+        }
+
+        return true;
     }
 
     void ChasePlayer()
