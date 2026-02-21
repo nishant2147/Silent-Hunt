@@ -4027,6 +4027,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d9c4d84f4bf62d4e95f56d24e442a32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoExitOnStart: 0
+  exitPoint: {fileID: 0}
   slideAxis: 0
   slideDistance: 2
   slideSpeed: 15
@@ -4259,6 +4261,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d9c4d84f4bf62d4e95f56d24e442a32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoExitOnStart: 0
+  exitPoint: {fileID: 0}
   slideAxis: 1
   slideDistance: 2
   slideSpeed: 15
@@ -4611,6 +4615,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d9c4d84f4bf62d4e95f56d24e442a32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoExitOnStart: 0
+  exitPoint: {fileID: 0}
   slideAxis: 0
   slideDistance: 2
   slideSpeed: 15
@@ -9106,6 +9112,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &729820160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 729820161}
+  m_Layer: 0
+  m_Name: ExitPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &729820161
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729820160}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9, y: -3.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1580701177}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &775084567
 GameObject:
   m_ObjectHideFlags: 0
@@ -9154,6 +9191,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d9c4d84f4bf62d4e95f56d24e442a32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoExitOnStart: 0
+  exitPoint: {fileID: 0}
   slideAxis: 1
   slideDistance: 2
   slideSpeed: 15
@@ -9479,7 +9518,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1169031374}
   - {fileID: 775084568}
   - {fileID: 388099458}
   - {fileID: 459848179}
@@ -9608,7 +9646,7 @@ Transform:
   m_GameObject: {fileID: 983331750}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9, y: 2, z: -10}
+  m_LocalPosition: {x: 9, y: 5.32, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -23272,12 +23310,12 @@ GameObject:
   - component: {fileID: 1169031374}
   - component: {fileID: 1169031375}
   - component: {fileID: 1169031376}
-  - component: {fileID: 1169031377}
   - component: {fileID: 1169031378}
   - component: {fileID: 1169031379}
+  - component: {fileID: 1169031381}
   m_Layer: 0
-  m_Name: door10_0
-  m_TagString: Door
+  m_Name: DoorExitPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23291,11 +23329,11 @@ Transform:
   m_GameObject: {fileID: 1169031373}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9, y: -4.219, z: 0}
-  m_LocalScale: {x: 1.3957536, y: 0.73338085, z: 1}
+  m_LocalPosition: {x: 9, y: -4.3529, z: 0}
+  m_LocalScale: {x: 1.3957536, y: 1.1949707, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 893810747}
+  m_Father: {fileID: 1580701177}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1169031375
 SpriteRenderer:
@@ -23398,22 +23436,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.44, y: 0.87726635}
   m_EdgeRadius: 0
---- !u!114 &1169031377
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1169031373}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d9c4d84f4bf62d4e95f56d24e442a32, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slideAxis: 0
-  slideDistance: 2
-  slideSpeed: 15
-  closeDelay: 0.8
 --- !u!114 &1169031378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23446,6 +23468,24 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 0
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!114 &1169031381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169031373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d9c4d84f4bf62d4e95f56d24e442a32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoExitOnStart: 1
+  exitPoint: {fileID: 729820161}
+  slideAxis: 0
+  slideDistance: 2
+  slideSpeed: 3
+  closeDelay: 0.6
 --- !u!1 &1174828066
 GameObject:
   m_ObjectHideFlags: 0
@@ -35950,8 +35990,8 @@ Transform:
   m_GameObject: {fileID: 1406174713}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.9942, y: -4.5659, z: 0}
-  m_LocalScale: {x: 1.382249, y: 1.3489178, z: 1}
+  m_LocalPosition: {x: 8.9942, y: -4.5005, z: 0}
+  m_LocalScale: {x: 1.382249, y: 1.7092137, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1444389273}
@@ -36294,6 +36334,8 @@ MonoBehaviour:
   moveArrowLine: {fileID: 0}
   EnemybloodEffectPrefab: {fileID: 0}
   isInGrass: 0
+  autoMoveOnStart: 0
+  exitPoint: {fileID: 0}
   attackDuration: 0.4
 --- !u!195 &1487366438
 NavMeshAgent:
@@ -36392,6 +36434,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d9c4d84f4bf62d4e95f56d24e442a32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoExitOnStart: 0
+  exitPoint: {fileID: 0}
   slideAxis: 0
   slideDistance: 2
   slideSpeed: 15
@@ -36835,6 +36879,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1142126779}
+  - {fileID: 1169031374}
+  - {fileID: 729820161}
   - {fileID: 893810747}
   - {fileID: 1487366434}
   - {fileID: 824530224}
@@ -36893,6 +36939,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d9c4d84f4bf62d4e95f56d24e442a32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoExitOnStart: 0
+  exitPoint: {fileID: 0}
   slideAxis: 0
   slideDistance: 2
   slideSpeed: 15
@@ -39405,6 +39453,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d9c4d84f4bf62d4e95f56d24e442a32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoExitOnStart: 0
+  exitPoint: {fileID: 0}
   slideAxis: 1
   slideDistance: 2
   slideSpeed: 15
@@ -41913,6 +41963,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   homePanel: {fileID: 1237270265}
+  player: {fileID: 1599167189131478094}
+  door: {fileID: 1169031381}
+  exitPoint: {fileID: 729820161}
 --- !u!1 &2032167624
 GameObject:
   m_ObjectHideFlags: 0
@@ -42517,6 +42570,8 @@ MonoBehaviour:
   moveArrowLine: {fileID: 883764245426976588}
   EnemybloodEffectPrefab: {fileID: 3825046120550962372, guid: f0177302a7c47454295cd5153abf6dc8, type: 3}
   isInGrass: 0
+  autoMoveOnStart: 0
+  exitPoint: {fileID: 729820161}
   attackDuration: 0.4
 --- !u!95 &1623799520558706915
 Animator:
@@ -43438,6 +43493,8 @@ MonoBehaviour:
   moveArrowLine: {fileID: 2763662455337336133}
   EnemybloodEffectPrefab: {fileID: 3825046120550962372, guid: f0177302a7c47454295cd5153abf6dc8, type: 3}
   isInGrass: 0
+  autoMoveOnStart: 0
+  exitPoint: {fileID: 0}
   attackDuration: 0.4
 --- !u!95 &4364453912983599850
 Animator:
@@ -44185,7 +44242,7 @@ Transform:
   m_GameObject: {fileID: 6312899215809852075}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 8.95, y: -5.45, z: 0}
+  m_LocalPosition: {x: 8.95, y: -5.8, z: 0}
   m_LocalScale: {x: 0.40000004, y: 0.40000004, z: 0.4}
   m_ConstrainProportionsScale: 0
   m_Children:

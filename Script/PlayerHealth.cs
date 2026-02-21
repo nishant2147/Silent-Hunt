@@ -8,7 +8,6 @@ public class PlayerHealth : MonoBehaviour
     private NavMeshAgent agent;
     public GameObject bloodEffectPrefab;
 
-
     void Start()
     {
         currentHealth = maxHealth;

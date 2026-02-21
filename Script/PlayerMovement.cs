@@ -24,6 +24,12 @@ public class PlayerMovement : MonoBehaviour
 
     [HideInInspector] public bool isInGrass;
 
+    [Header("Auto Exit")]
+    public bool autoMoveOnStart;
+    public Transform exitPoint;
+
+    private bool isAutoMoving;
+
     public float attackDuration = 0.4f;
 
     private bool isAttacking;
@@ -52,10 +58,42 @@ public class PlayerMovement : MonoBehaviour
 
         moveArrowLine.positionCount = 0;
         moveArrowLine.enabled = false;
-    }
 
+        if (autoMoveOnStart && exitPoint != null)
+        {
+            StartCoroutine(AutoMove());
+        }
+    }
+    IEnumerator AutoMove()
+    {
+        yield return new WaitForSeconds(0.2f);
+
+        if (agent.isOnNavMesh)
+        {
+            isAutoMoving = true;
+            agent.SetDestination(exitPoint.position);
+        }
+    }
     void Update()
     {
+        if (isAutoMoving)
+        {
+            RotateTowardsMovement();
+            UpdateAnimation();
+
+            if (!agent.pathPending &&
+                agent.remainingDistance <= agent.stoppingDistance)
+            {
+                agent.ResetPath();
+                animator.SetBool("isWalking", false);
+                isAutoMoving = false;
+
+                Debug.Log("Reached Exit Point");
+            }
+
+            return;
+        }
+
         if (!GameManager.Instance.isGameStarted)
         {
             agent.ResetPath();
@@ -76,6 +114,16 @@ public class PlayerMovement : MonoBehaviour
             HideArrowLine();
             agent.ResetPath();
         }
+    }
+    public void StartAutoMove(Transform target)
+    {
+        if (target == null || !agent.isOnNavMesh) return;
+
+        ClearTargetIndicator();
+        isFollowingEnemy = false;
+        agent.ResetPath();
+
+        agent.SetDestination(target.position);
     }
     void HideArrowLine()
     {
@@ -105,7 +153,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
     }
-
+    
     void HandleMouseClick()
     {
         if (Input.GetMouseButtonDown(0))

@@ -4,6 +4,10 @@ using UnityEngine.AI;
 
 public class DoorSlide : MonoBehaviour
 {
+    [Header("Auto Exit Settings")]
+    public bool autoExitOnStart;
+    public Transform exitPoint;
+
     public enum SlideAxis { X, Y }
     public SlideAxis slideAxis;
 
@@ -50,7 +54,7 @@ public class DoorSlide : MonoBehaviour
         return col.CompareTag("Player") || col.CompareTag("Enemy");
     }
 
-    void OpenDoor()
+    public void OpenDoor()
     {
         if (isOpen) return;
         isOpen = true;
