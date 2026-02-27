@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class UIManager : MonoBehaviour
@@ -19,7 +20,16 @@ public class UIManager : MonoBehaviour
         GameManager.Instance.isGameStarted = true;       
 
         door.OpenDoor();
-               
+
+        StartCoroutine(StartSequence());
+    }
+
+    IEnumerator StartSequence()
+    {
+        door.OpenDoor();
+
+        yield return new WaitForSeconds(0.3f);
+
         player.StartAutoMove(exitPoint);
     }
 }

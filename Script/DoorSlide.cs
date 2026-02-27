@@ -59,32 +59,36 @@ public class DoorSlide : MonoBehaviour
         if (isOpen) return;
         isOpen = true;
 
-        navObstacle.enabled = false;
+        if (navObstacle != null)
+            navObstacle.enabled = false;
 
         if (slideRoutine != null)
             StopCoroutine(slideRoutine);
 
         slideRoutine = StartCoroutine(Slide(openPos));
-    }
 
+        if (closeRoutine != null)
+            StopCoroutine(closeRoutine);
+
+        closeRoutine = StartCoroutine(CloseAfterDelay());
+    }
+    IEnumerator CloseAfterDelay()
+    {
+        yield return new WaitForSeconds(closeDelay);
+        CloseDoor();
+    }
     void CloseDoor()
     {
         if (!isOpen) return;
         isOpen = false;
 
-        navObstacle.enabled = true;
+        if (navObstacle != null)
+            navObstacle.enabled = true;
 
         if (slideRoutine != null)
             StopCoroutine(slideRoutine);
 
         slideRoutine = StartCoroutine(Slide(closedPos));
-    }
-
-
-    IEnumerator CloseAfterDelay()
-    {
-        yield return new WaitForSeconds(closeDelay);
-        CloseDoor();
     }
 
     IEnumerator Slide(Vector3 target)

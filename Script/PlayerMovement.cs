@@ -119,8 +119,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (target == null || !agent.isOnNavMesh) return;
 
-        ClearTargetIndicator();
-        isFollowingEnemy = false;
+        isAutoMoving = true;
         agent.ResetPath();
 
         agent.SetDestination(target.position);
