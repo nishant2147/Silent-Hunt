@@ -28,7 +28,7 @@ public class CameraFollow : MonoBehaviour
 
         FindPlayer();
     }
-    void FindPlayer()
+    public void FindPlayer()
     {
         GameObject p = GameObject.FindGameObjectWithTag("Player");
 

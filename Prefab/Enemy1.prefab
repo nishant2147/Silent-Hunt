@@ -567,8 +567,17 @@ MonoBehaviour:
   - {fileID: 0}
   waitTime: 1
   sprite: {fileID: 8839134542986367584}
-  searchWaitTime: 20
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 72
+  PlayersearchWaitTime: 0
   searchRotateSpeed: 180
+  waitBeforeSearch: 0
+  attackRange: 0
+  attackDelay: 0
+  bulletPrefab: {fileID: 0}
+  firePoint: {fileID: 0}
+  fireRate: 0
 --- !u!1 &7922335315419791723
 GameObject:
   m_ObjectHideFlags: 0

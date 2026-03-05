@@ -11,6 +11,7 @@ public class PlayerHealth : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
+        agent = GetComponent<NavMeshAgent>();
     }
 
     public void TakeDamage(int damage)

@@ -232,29 +232,18 @@ public class PlayerMovement : MonoBehaviour
     }
     IEnumerator TargetScaleEffect(Transform target)
     {
-        float duration = 0.2f;
-        float timer = 0f;
-
         Vector3 startScale = Vector3.one;
-        Vector3 maxScale = Vector3.one * 1.5f;
+        Vector3 maxScale = Vector3.one * 1.4f;
 
-        while (timer < duration)
+        float speed = 8f;
+
+        while (target.gameObject.activeSelf)
         {
-            timer += Time.deltaTime;
-            target.localScale = Vector3.Lerp(startScale, maxScale, timer / duration);
+            float t = (Mathf.Sin(Time.time * speed) + 1f) / 2f;
+            target.localScale = Vector3.Lerp(startScale, maxScale, t);
+
             yield return null;
         }
-
-        timer = 0f;
-
-        while (timer < duration)
-        {
-            timer += Time.deltaTime;
-            target.localScale = Vector3.Lerp(maxScale, startScale, timer / duration);
-            yield return null;
-        }
-
-        target.localScale = startScale;
     }
     void RotateTowardsMovement()
     {
@@ -316,7 +305,7 @@ public class PlayerMovement : MonoBehaviour
             Instantiate(EnemybloodEffectPrefab, killPos, Quaternion.identity);
 
             GameManager.Instance.AlertEnemies(killPos);
-
+            GameManager.Instance.EnemyKilled();
             Destroy(currentEnemy);
         }
 
